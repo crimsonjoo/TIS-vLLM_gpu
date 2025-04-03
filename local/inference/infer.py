@@ -76,12 +76,13 @@ def get_triton_url(model_name: str, version: int = None) -> str:
     Returns:
         str: Triton 서버에서 해당 모델의 추론을 요청할 URL.
     """
-    # 설정 관리자에서 포트 가져오기 (기본값 9001)
+    # 설정 관리자에서 호스트와 포트 가져오기
+    host = get_config("host", "localhost")
     port = get_config("port", 9001)
     
     if version:
-        return f"localhost:{port}/v2/models/{model_name}/versions/{version}/infer"
-    return f"localhost:{port}/v2/models/{model_name}/infer"
+        return f"{host}:{port}/v2/models/{model_name}/versions/{version}/infer"
+    return f"{host}:{port}/v2/models/{model_name}/infer"
 
 def create_request(prompt: str, request_id: str, model_name: str, sampling_params: dict = None, stream: bool = True) -> dict:
     """

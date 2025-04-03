@@ -127,7 +127,8 @@ class ConfigManager:
         """
         # 기본 설정 (가장 낮은 우선순위)
         default_config = {
-            "port": 9001,
+            "host": "localhost",
+            "port": 8001,
             "model_name": "vllm_model",
             "version": 1,
             "parameters": {
