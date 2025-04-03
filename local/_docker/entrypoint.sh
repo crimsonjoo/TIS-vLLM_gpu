@@ -4,6 +4,8 @@ set -e
 
 # 환경 변수 설정
 export PYTHONPATH=$PYTHONPATH:/workspace/app
+# Triton 서버 바이너리 경로를 PATH에 추가
+export PATH=$PATH:/opt/tritonserver/bin
 
 # 필요한 디렉토리 권한 설정
 chmod -R 755 /workspace
