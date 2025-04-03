@@ -1,0 +1,120 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kbn-compile-triton-vllm-server
+  namespace: triton-inference
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kbn-compile-triton-vllm-server
+  template:
+    metadata:
+      labels:
+        app: kbn-compile-triton-vllm-server
+      name: kbn-compile-triton-vllm-server
+      namespace: triton-inference
+    spec:
+      containers:
+        - command: ["/bin/bash", "-c", "--"]
+          args: ["while true; do sleep 300000; done;"]
+          image: imsmile2000/triton-vllm-python-py3:d_1.2.92_c_0.7.2
+          imagePullPolicy: IfNotPresent
+          name: kbn-compile-triton-vllm-server
+          resources:
+            requests:
+              rebellions.ai/ATOM: "4"
+            limits:
+              rebellions.ai/ATOM: "4"
+          ports:
+            - containerPort: 8000
+              name: http
+              protocol: TCP
+            - containerPort: 8001
+              name: grpc
+              protocol: TCP
+            - containerPort: 8002
+              name: metrics
+              protocol: TCP
+          envFrom:
+            - configMapRef:
+                name: yplee-rbln-env  # .env 파일 내용을 포함하는 ConfigMap (별도 생성 필요)
+          volumeMounts:
+            # /dev/shm 크기를 16Gi로 설정
+            - name: shm
+              mountPath: /dev/shm
+            # 데이터 동기화: 로컬 ./data → 컨테이너 /app/data  
+            - name: data
+              mountPath: /app/data
+            # rbln-stat 실행 파일 (읽기 전용)
+            - name: rbln-stat
+              mountPath: /usr/local/bin/rbln-stat
+              readOnly: true
+            # windsurf-server 설정 디렉토리
+            - name: windsurf-server
+              mountPath: /root/.windsurf-server
+            # huggingface 캐시 디렉토리
+            - name: huggingface-cache
+              mountPath: /root/.cache/huggingface
+            # rbln 캐시 디렉토리 (환경변수 RBLN_CACHE_DIR에 해당하는 경로로 마운트)
+            - name: rbln-cache
+              mountPath: /app/.cache/rbln  # 필요에 따라 ${RBLN_CACHE_DIR}로 수정
+            # 모델 저장소
+            - name: model-zoo
+              mountPath: /app/KBN-RBLN-model-zoo
+            - name: vllm-backend
+              mountPath: /opt/tritonserver/vllm_backend
+            - name: device-rsd0
+              mountPath: /dev/rsd0
+            # # 소스 동기화 (현재 디렉토리)
+            # - name: app-sync
+            #   mountPath: /app
+          # 필요한 경우 privileged 모드 활성화 (주석참조)
+          securityContext:
+            privileged: true
+      restartPolicy: Always
+      volumes:
+        # /dev/shm 볼륨 (16Gi)
+        - name: shm
+          emptyDir:
+            medium: Memory
+            sizeLimit: 16Gi
+        # 로컬 데이터 디렉토리 (반드시 절대경로로 수정)
+        - name: data
+          hostPath:
+            path: /home/rebel/yplee/LLM/data
+            type: Directory
+        # rbln-stat 파일 (절대경로)
+        - name: rbln-stat
+          hostPath:
+            path: /usr/local/bin/rbln-stat
+            type: File
+        # windsurf-server 디렉토리 (절대경로)
+        - name: windsurf-server
+          hostPath:
+            path: /home/rebel/.windsurf-server
+            type: Directory
+        # huggingface 캐시 (절대경로)
+        - name: huggingface-cache
+          hostPath:
+            path: /home/rebel/.cache/huggingface
+            type: Directory
+        # rbln 캐시 (절대경로, 필요에 따라 수정)
+        - name: rbln-cache
+          hostPath:
+            path: /home/rebel/.cache/rbln
+            type: Directory
+        # 모델 저장소 (절대경로)
+        - name: model-zoo
+          hostPath:
+            path: /home/rebel/yplee/KBN-RBLN-model-zoo/rbln-model-zoo
+            type: Directory
+        # vllm-backend
+        - name: vllm-backend
+          hostPath:
+            path: /home/rebel/yplee/LLM/vllm_backend
+            type: Directory
+        - name: device-rsd0
+          hostPath:
+            path: /dev/rsd0
+            type: CharDevice
