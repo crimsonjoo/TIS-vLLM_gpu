@@ -1,13 +1,23 @@
 # TRI-vLLM-GPU: Triton 추론 서버를 이용한 LLM 서빙 시스템
 
-이 프로젝트는 NVIDIA Triton Inference Server와 vLLM을 활용하여 대규모 언어 모델(LLM)을 효율적으로 서빙하고 추론하는 시스템입니다. Docker 컨테이너를 통해 로컬 환경에서 쉽게 배포하고 사용할 수 있습니다.
+이 프로젝트는 NVIDIA Triton Inference Server와 vLLM을 활용하여 대규모 언어 모델(LLM)을 효율적으로 서빙하고 추론하는 시스템입니다. Docker 컨테이너를 통해 로컬 환경에서 쉽게 배포하고 사용할 수 있으며, 성능 분석 도구를 통해 LLM의 성능을 측정하고 시각화할 수 있습니다.
 
 ## 프로젝트 구조
 
 ```
 /
 ├── container/                  # 컨테이너 내부에 복사될 파일들
-│   └── logs/                   # 로그 저장 디렉토리
+│   ├── logs/                   # 로그 저장 디렉토리
+│   └── llm_perf_analyzer/      # LLM 성능 분석 도구
+│       ├── run_perf_test.sh    # 성능 테스트 실행 스크립트
+│       ├── run_visualization.py # 결과 시각화 실행 스크립트
+│       ├── utils/              # 유틸리티 모듈
+│       │   ├── __init__.py     # 패키지 초기화 파일
+│       │   ├── charts.py       # 차트 생성 함수
+│       │   ├── compare.py      # 결과 비교 함수
+│       │   └── data.py         # 데이터 처리 함수
+│       ├── artifacts/          # 테스트 결과 저장 디렉토리
+│       └── README.md           # 성능 분석기 설명서
 │
 ├── local/                      # 로컬 환경 설정 및 코드
 │   ├── _docker/                # Docker 관련 파일
@@ -39,6 +49,7 @@
 - **동적 설정 관리**: YAML, 환경변수, .env 파일을 통한 유연한 설정 관리
 - **스트리밍 추론**: 토큰 단위의 스트리밍 추론 지원
 - **비동기 처리**: asyncio를 활용한 비동기 추론 처리
+- **성능 분석 및 시각화**: GenAI 성능 분석기를 통한 LLM 성능 측정 및 시각화
 
 ## 시작하기
 
@@ -127,6 +138,65 @@ python3 /local/inference/infer.py
 MODEL_NAME="다른모델" TRITON_GRPC_PORT=9012 python3 /local/inference/infer.py
 ```
 
+## GenAI 성능 분석기 사용하기
+
+GenAI 성능 분석기는 LLM의 성능을 측정하고 시각화하는 도구입니다. 다양한 지연 시간, 처리량, GPU 활용도 등의 성능 지표를 수집하고 분석할 수 있습니다.
+
+### 성능 테스트 실행
+
+성능 테스트를 실행하려면 다음 명령을 사용합니다:
+
+```bash
+cd /workspace/llm_perf_analyzer
+./run_perf_test.sh
+```
+
+테스트 파라미터는 스크립트 내에서 직접 수정할 수 있습니다:
+
+```bash
+# 모델 및 서비스 설정
+MODEL_NAME="exaone-deep-32B"    # 테스트할 모델 이름
+SERVICE_KIND="triton"           # 서비스 종류 (triton, tgi, vllm 등)
+BACKEND="vllm"                  # 백엔드 (vllm, tensorrtllm 등)
+
+# 입력 및 출력 토큰 설정
+INPUT_TOKENS_MEAN=200           # 입력 프롬프트의 평균 토큰 수
+OUTPUT_TOKENS_MEAN=100          # 생성할 출력 토큰의 평균 수
+
+# 테스트 설정
+REQUEST_COUNT=5                 # 성능 측정에 사용할 요청 수
+WARMUP_REQUEST_COUNT=2          # 워밍업에 사용할 요청 수
+STREAMING=true                  # 토큰 스트리밍 사용 여부
+```
+
+### 결과 시각화
+
+테스트 결과를 시각화하려면 다음 명령을 사용합니다:
+
+```bash
+# 단일 결과 시각화
+python run_visualization.py --result_dir /workspace/llm_perf_analyzer/artifacts/perf_<모델명>_<타임스탬프>
+
+# 여러 결과 비교
+python run_visualization.py --compare /path/to/result1 /path/to/result2 --names "테스트1" "테스트2"
+
+# 최신 결과 시각화
+python run_visualization.py --latest
+
+# 특정 모델의 최신 결과 시각화
+python run_visualization.py --model <모델명>
+```
+
+### 주요 성능 지표
+
+성능 분석기는 다음과 같은 주요 지표를 측정합니다:
+
+- **지연 시간 (Latency)**: TTFT(Time To First Token), 토큰 간 지연 시간, 요청 지연 시간
+- **처리량 (Throughput)**: 초당 생성 토큰 수, 초당 처리 요청 수
+- **GPU 활용도**: GPU 사용률, 메모리 사용량, 전력 소비량
+
+자세한 내용은 `container/llm_perf_analyzer/README.md` 파일을 참조하세요.
+
 ## vLLM 백엔드 설정
 
 vLLM 백엔드는 Triton Inference Server에 통합되어 있으며, 다음과 같은 방법으로 설정할 수 있습니다:
@@ -168,6 +238,8 @@ vLLM 백엔드는 Triton Inference Server에 통합되어 있으며, 다음과 �
 - **GPU 메모리 부족**: `model.json`에서 `gpu_memory_utilization` 값을 낮추어 조정하세요.
 - **포트 충돌**: `.env` 파일에서 포트 번호를 변경하세요.
 - **모델 로딩 실패**: 모델 경로와 접근 권한을 확인하세요.
+- **성능 테스트 오류**: `run_perf_test.sh`의 파라미터가 올바르게 설정되었는지 확인하세요.
+- **시각화 실패**: 필요한 Python 패키지(pandas, matplotlib, seaborn)가 설치되어 있는지 확인하세요.
 
 ## 라이센스
 
@@ -178,3 +250,4 @@ vLLM 백엔드는 Triton Inference Server에 통합되어 있으며, 다음과 �
 - [Triton Inference Server 문서](https://github.com/triton-inference-server/server)
 - [vLLM 프로젝트](https://github.com/vllm-project/vllm)
 - [vLLM 지원 모델 목록](https://vllm.readthedocs.io/en/latest/models/supported_models.html)
+- [GenAI-Perf 도구](https://github.com/triton-inference-server/genai-perf)

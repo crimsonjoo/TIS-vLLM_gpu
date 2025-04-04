@@ -1,0 +1,21 @@
+{
+  "include": [
+    "local/inference"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "vllm_backend",
+    "container",
+    "local/_docker",
+    "local/_kubernetes",
+    ".git"
+  ],
+  "ignore": [
+    "vllm_backend"
+  ],
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.8",
+  "typeCheckingMode": "basic"
+}

@@ -1,0 +1,1504 @@
+{
+  "data": [
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "him\n To his home before us. Fair and noble hostess,\n We are your guest tonight.\n \n LADY MACBETH.\n Your servants ever\n Have theirs, themselves, and what is theirs, in compt,\n To make their audit at your Highness\u2019 pleasure,\n Still to return your own.\n \n DUNCAN.\n Give me your hand;\n Conduct me to mine host: we love him highly,\n And shall continue our graces towards him.\n By your leave, hostess.\n \n [Exeunt.]\n \n SCENE VII. The same. A Lobby in the Castle.\n Hautboys and torches. Enter, and pass over, a Sewer and divers Servants with dishes and service. Then enter Macbeth.\n \n MACBETH.\n If it were done when \u2019tis done, then \u2019twere well"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n I believe it,\n And to that destiny have patiently\n Laid up my hour to come.\n \n PALAMON.\n O, cousin Arcite,\n Where is Thebes now? Where is our noble country?\n Where are our friends and kindreds? Never more\n Must we behold those comforts, never see\n The hardy youths strive for the games of honour,\n Hung with the painted favours of their ladies,\n Like tall ships under sail; then start amongst \u2019em,\n And as an east wind leave \u2019em all behind us,\n Like lazy clouds, whilst Palamon and Arcite,\n Even in the wagging of a wanton leg,\n Outstripped the people\u2019s praises, won the garlands,\n Ere they have time to wish \u2019em ours. O, never\n Shall we two exercise, like twins of honour,\n Our arms"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "is\u2019t, I warrant him. Do but read.\n \n SIR TOBY.\n Give me. [Reads.] Youth, whatsoever thou art, thou art but a scurvy fellow.\n \n FABIAN.\n Good, and valiant.\n \n SIR TOBY.\n Wonder not, nor admire not in thy mind, why I do call thee so, for I will show thee no reason for\u2019t.\n \n FABIAN.\n A good note, that keeps you from the blow of the law.\n \n SIR TOBY.\n Thou comest to the Lady Olivia, and in my sight she uses thee kindly: but thou liest in thy throat; that is not the matter I challenge thee for.\n \n FABIAN.\n Very brief, and to exceeding good sense\u2014less.\n \n SIR TOBY.\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "jury.\n \n [Stabs him.]\n \n QUEEN MARGARET.\n O, kill me too!\n \n RICHARD.\n Marry, and shall.\n \n [Offers to kill her.]\n \n KING EDWARD.\n Hold, Richard, hold; for we have done too much.\n \n RICHARD.\n Why should she live to fill the world with words?\n \n KING EDWARD.\n What, doth she swoon? Use means for her recovery.\n \n RICHARD.\n Clarence, excuse me to the King my brother.\n I\u2019ll hence to London on a serious matter.\n Ere ye come there, be sure to hear some news.\n \n GEORGE.\n What? What?\n \n RICHARD.\n The Tower, the Tower!\n \n ["
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ell is knoll\u2019d.\n \n MALCOLM.\n He\u2019s worth more sorrow,\n And that I\u2019ll spend for him.\n \n SIWARD.\n He\u2019s worth no more.\n They say he parted well and paid his score:\n And so, God be with him!\u2014Here comes newer comfort.\n \n Enter Macduff with Macbeth\u2019s head.\n \n MACDUFF.\n Hail, King, for so thou art. Behold, where stands\n Th\u2019 usurper\u2019s cursed head: the time is free.\n I see thee compass\u2019d with thy kingdom\u2019s pearl,\n That speak my salutation in their minds;\n Whose voices I desire aloud with mine,\u2014\n Hail, King of Scotland!\n \n ALL.\n Hail, King of Scotland!\n \n [Flourish.]\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "d yield them up\n Before his sister should her body stoop\n To such abhorred pollution.\n Then, Isabel, live chaste, and, brother, die.\n More than our brother is our chastity.\n I\u2019ll tell him yet of Angelo\u2019s request,\n And fit his mind to death, for his soul\u2019s rest.\n \n [Exit.]\n \n ACT III\n SCENE I. A room in the prison.\n Enter Duke, Claudio and Provost.\n \n DUKE.\n So then you hope of pardon from Lord Angelo?\n \n CLAUDIO.\n The miserable have no other medicine\n But only hope.\n I have hope to live, and am prepared to die.\n \n DUKE.\n Be absolute for death. Either death or life\n Shall thereby be the sweeter. Reason thus with life:\n If"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n \n SCENE II. Rome. A Room in the Palace\n Enter Aaron, Chiron and Demetrius at one door, and at the other door Young Lucius and another, with a bundle of weapons and verses writ upon them.\n \n CHIRON.\n Demetrius, here\u2019s the son of Lucius;\n He hath some message to deliver us.\n \n AARON.\n Ay, some mad message from his mad grandfather.\n \n YOUNG LUCIUS.\n My lords, with all the humbleness I may,\n I greet your honours from Andronicus;\n [Aside.] And pray the Roman gods confound you both.\n \n DEMETRIUS.\n Gramercy, lovely Lucius. What\u2019s the news?\n \n YOUNG LUCIUS.\n [Aside.]"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "fellow with the best king, thou shalt find the best king of good fellows. Come, your answer in broken music; for thy voice is music and thy English broken; therefore, queen of all, Katharine, break thy mind to me in broken English. Wilt thou have me?\n \n KATHARINE.\n Dat is as it shall please le roi mon p\u00e8re.\n \n KING HENRY.\n Nay, it will please him well, Kate; it shall please him, Kate.\n \n KATHARINE.\n Den it sall also content me.\n \n KING HENRY.\n Upon that I kiss your hand, and call you my queen.\n \n KATHARINE.\n Laissez, mon seigneur, laissez, laissez! Ma foi, je ne veux point que vous abaissiez votre grandeur en baisant la main d\u2019une"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ",\n If you first sinn\u2019d with us, and that with us\n You did continue fault, and that you slipp\u2019d not\n With any but with us.\n \n LEONTES.\n Is he won yet?\n \n HERMIONE.\n He\u2019ll stay, my lord.\n \n LEONTES.\n At my request he would not.\n Hermione, my dearest, thou never spok\u2019st\n To better purpose.\n \n HERMIONE.\n Never?\n \n LEONTES.\n Never but once.\n \n HERMIONE.\n What! have I twice said well? when was\u2019t before?\n I prithee tell me. Cram \u2019s with praise, and make \u2019s\n As fat as tame things: one good deed dying tongueless\n Slaughters a thousand waiting upon that"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "and bran together\n He throws without distinction. Give me leave,\n I\u2019ll go to him and undertake to bring him\n Where he shall answer by a lawful form,\n In peace, to his utmost peril.\n \n FIRST SENATOR.\n Noble tribunes,\n It is the humane way: the other course\n Will prove too bloody, and the end of it\n Unknown to the beginning.\n \n SICINIUS.\n Noble Menenius,\n Be you then as the people\u2019s officer.\u2014\n Masters, lay down your weapons.\n \n BRUTUS.\n Go not home.\n \n SICINIUS.\n Meet on the marketplace. We\u2019ll attend you there,\n Where if you bring not Martius, we\u2019ll proceed\n In our first way.\n \n MENENIUS.\n I\u2019ll bring him"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ", we\u2019ll go with you;\n I will not lose the sight.\n \n JAILER.\n How did you like her?\n \n DOCTOR.\n I\u2019ll warrant you, within these three or four days\n I\u2019ll make her right again. You must not from her,\n But still preserve her in this way.\n \n WOOER.\n I will.\n \n DOCTOR.\n Let\u2019s get her in.\n \n WOOER.\n Come, sweet, we\u2019ll go to dinner;\n And then we\u2019ll play at cards.\n \n DAUGHTER.\n And shall we kiss too?\n \n WOOER.\n A hundred times.\n \n DAUGHTER.\n And twenty.\n \n WOOER.\n Ay, and twenty.\n \n DAUGHTER.\n And then we\u2019"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "condemned upon\u2019t.\n \n SECOND GENTLEMAN.\n I am sorry for\u2019t.\n \n FIRST GENTLEMAN.\n So are a number more.\n \n SECOND GENTLEMAN.\n But pray, how passed it?\n \n FIRST GENTLEMAN.\n I\u2019ll tell you in a little. The great Duke\n Came to the bar, where to his accusations\n He pleaded still not guilty and alleged\n Many sharp reasons to defeat the law.\n The King\u2019s attorney on the contrary\n Urged on the examinations, proofs, confessions\n Of divers witnesses, which the Duke desired\n To have brought viva voce to his face;\n At which appeared against him his surveyor,\n Sir Gilbert Peck his chancellor, and John Car,\n Confessor to him, with that devil monk,\n Hop"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "mother\u2019s hopes lie in one tomb?\n \n JOHN TALBOT.\n Ay, rather than I\u2019ll shame my mother\u2019s womb.\n \n TALBOT.\n Upon my blessing, I command thee go.\n \n JOHN TALBOT.\n To fight I will, but not to fly the foe.\n \n TALBOT.\n Part of thy father may be saved in thee.\n \n JOHN TALBOT.\n No part of him but will be shame in me.\n \n TALBOT.\n Thou never hadst renown, nor canst not lose it.\n \n JOHN TALBOT.\n Yes, your renowned name; shall flight abuse it?\n \n TALBOT.\n Thy father\u2019s charge shall clear thee from that stain.\n \n JOHN"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "dead\u2014nay, not so much, not two:\n So excellent a king; that was to this\n Hyperion to a satyr; so loving to my mother,\n That he might not beteem the winds of heaven\n Visit her face too roughly. Heaven and earth!\n Must I remember? Why, she would hang on him\n As if increase of appetite had grown\n By what it fed on; and yet, within a month\u2014\n Let me not think on\u2019t\u2014Frailty, thy name is woman!\n A little month, or ere those shoes were old\n With which she followed my poor father\u2019s body\n Like Niobe, all tears.\u2014Why she, even she\u2014\n O God! A beast that wants discourse of reason\n Would have mourn\u2019d longer,\u2014married with mine uncle,\n My father\u2019s brother; but no more like my father\n Than I"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "of a Church.\n Enter Don Pedro, Don John, Leonato, Friar Francis, Claudio, Benedick, Hero, Beatrice &c.\n \n LEONATO.\n Come, Friar Francis, be brief: only to the plain form of marriage, and you shall recount their particular duties afterwards.\n \n FRIAR.\n You come hither, my lord, to marry this lady?\n \n CLAUDIO.\n No.\n \n LEONATO.\n To be married to her, friar; you come to marry her.\n \n FRIAR.\n Lady, you come hither to be married to this Count?\n \n HERO.\n I do.\n \n FRIAR.\n If either of you know any inward impediment, why you should not be conjoined, I charge you, on your souls, to utter it.\n "
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Which false hope lingers in extremity.\n \n Enter York.\n \n GREEN.\n Here comes the Duke of York.\n \n QUEEN.\n With signs of war about his aged neck.\n O! full of careful business are his looks!\n Uncle, for God\u2019s sake, speak comfortable words.\n \n YORK.\n Should I do so, I should belie my thoughts.\n Comfort\u2019s in heaven, and we are on the earth,\n Where nothing lives but crosses, cares, and grief.\n Your husband, he is gone to save far off,\n Whilst others come to make him lose at home.\n Here am I left to underprop his land,\n Who, weak with age, cannot support myself.\n Now comes the sick hour that his surfeit made;\n Now shall he try his friends that flattered him.\n \n Enter a Serving"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "would have drowned a blind bitch\u2019s puppies, fifteen i\u2019 the litter; and you may know by my size that I have a kind of alacrity in sinking; if the bottom were as deep as hell, I should down. I had been drowned, but that the shore was shelvy and shallow\u2014a death that I abhor, for the water swells a man, and what a thing should I have been when I had been swelled! I should have been a mountain of mummy.\n \n Enter Bardolph with sack.\n \n BARDOLPH\n Here\u2019s Mistress Quickly, sir, to speak with you.\n \n FALSTAFF.\n Come, let me pour in some sack to the Thames water, for my belly\u2019s as cold as if I had swallowed snowballs for pills to cool the re"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Volscian camp before Rome.\n Enter Menenius to the Watch, or Guard.\n \n FIRST WATCH.\n Stay! Whence are you?\n \n SECOND WATCH.\n Stand, and go back.\n \n MENENIUS.\n You guard like men; \u2019tis well. But by your leave,\n I am an officer of state and come\n To speak with Coriolanus.\n \n FIRST WATCH.\n From whence?\n \n MENENIUS.\n From Rome.\n \n FIRST WATCH.\n You may not pass; you must return. Our general\n Will no more hear from thence.\n \n SECOND WATCH.\n You\u2019ll see your Rome embraced with fire before\n You\u2019ll speak with Coriolanus.\n \n MENENIUS.\n Good my friends,\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ", with\n I know not how much more, should be demanded,\n And all the other by-dependances,\n From chance to chance; but nor the time nor place\n Will serve our long interrogatories. See,\n Posthumus anchors upon Imogen;\n And she, like harmless lightning, throws her eye\n On him, her brothers, me, her master, hitting\n Each object with a joy; the counterchange\n Is severally in all. Let\u2019s quit this ground,\n And smoke the temple with our sacrifices.\n [To Belarius.] Thou art my brother; so we\u2019ll hold thee ever.\n \n IMOGEN.\n You are my father too, and did relieve me\n To see this gracious season.\n \n CYMBELINE.\n All o\u2019erjoy\u2019d\n Save these in bonds. Let them be joyful too,\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "how \u2019tis best to bear it.\n Now his important blood will naught deny\n That she\u2019ll demand; a ring the county wears,\n That downward hath succeeded in his house\n From son to son, some four or five descents\n Since the first father wore it. This ring he holds\n In most rich choice; yet, in his idle fire,\n To buy his will, it would not seem too dear,\n Howe\u2019er repented after.\n \n WIDOW.\n Now I see\n The bottom of your purpose.\n \n HELENA.\n You see it lawful then; it is no more\n But that your daughter, ere she seems as won,\n Desires this ring; appoints him an encounter;\n In fine, delivers me to fill the time,\n Herself most chastely absent. After,\n To marry her, I\u2019ll add three thousand crowns\n To"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n COMINIUS.\n O, ay, what else?\n \n [Exeunt Cominius and Menenius.]\n \n SICINIUS.\n Go, masters, get you home. Be not dismayed.\n These are a side that would be glad to have\n This true which they so seem to fear. Go home,\n And show no sign of fear.\n \n FIRST CITIZEN.\n The gods be good to us! Come, masters, let\u2019s home. I ever said we were i\u2019 th\u2019 wrong when we banished him.\n \n SECOND CITIZEN.\n So did we all. But, come, let\u2019s home.\n \n [Exeunt Citizens.]\n \n BRUTUS.\n I do not like this news.\n \n SICINIUS.\n Nor I.\n \n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Well, I have told you enough of this; for my part, I\u2019ll not meddle nor make no farther. He that will have a cake out of the wheat must tarry the grinding.\n \n TROILUS.\n Have I not tarried?\n \n PANDARUS.\n Ay, the grinding; but you must tarry the bolting.\n \n TROILUS.\n Have I not tarried?\n \n PANDARUS.\n Ay, the bolting; but you must tarry the leavening.\n \n TROILUS.\n Still have I tarried.\n \n PANDARUS.\n Ay, to the leavening; but here\u2019s yet in the word \u2018hereafter\u2019 the kneading, the making of the cake, the heating of the oven, and the baking; nay, you must stay the cool"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "; since he delivers\n Our offices and what we have to do\n To the direction just.\n \n FIRST MURDERER.\n Then stand with us.\n The west yet glimmers with some streaks of day.\n Now spurs the lated traveller apace,\n To gain the timely inn; and near approaches\n The subject of our watch.\n \n THIRD MURDERER.\n Hark! I hear horses.\n \n BANQUO.\n [Within.] Give us a light there, ho!\n \n SECOND MURDERER.\n Then \u2019tis he; the rest\n That are within the note of expectation\n Already are i\u2019 th\u2019 court.\n \n FIRST MURDERER.\n His horses go about.\n \n THIRD MURDERER.\n Almost a mile; but he does usually,\n So all"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "sudden take such hold?\n \n LUCENTIO.\n O Tranio! till I found it to be true,\n I never thought it possible or likely;\n But see, while idly I stood looking on,\n I found the effect of love in idleness;\n And now in plainness do confess to thee,\n That art to me as secret and as dear\n As Anna to the Queen of Carthage was,\n Tranio, I burn, I pine, I perish, Tranio,\n If I achieve not this young modest girl.\n Counsel me, Tranio, for I know thou canst:\n Assist me, Tranio, for I know thou wilt.\n \n TRANIO.\n Master, it is no time to chide you now;\n Affection is not rated from the heart:\n If love have touch\u2019d you, nought remains"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "great vices do appear;\n Robes and furr\u2019d gowns hide all. Plate sin with gold,\n And the strong lance of justice hurtless breaks;\n Arm it in rags, a pygmy\u2019s straw does pierce it.\n None does offend, none, I say none; I\u2019ll able \u2019em;\n Take that of me, my friend, who have the power\n To seal the accuser\u2019s lips. Get thee glass eyes,\n And like a scurvy politician, seem\n To see the things thou dost not. Now, now, now, now:\n Pull off my boots: harder, harder, so.\n \n EDGAR.\n O, matter and impertinency mix\u2019d!\n Reason in madness!\n \n LEAR.\n If thou wilt weep my fortunes, take my eyes.\n I know thee well enough,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "inventions, which shall go before.\n \n At last she thus begins: \u201cThou worthy lord\n Of that unworthy wife that greeteth thee,\n Health to thy person! Next vouchsafe t\u2019 afford,\n If ever, love, thy Lucrece thou wilt see,\n Some present speed to come and visit me.\n     So I commend me from our house in grief.\n     My woes are tedious, though my words are brief.\u201d\n \n Here folds she up the tenor of her woe,\n Her certain sorrow writ uncertainly.\n By this short schedule Collatine may know\n Her grief, but not her grief\u2019s true quality;\n She dares not thereof make discovery,\n     Lest he should hold it her own gross abuse,\n     Ere she with blood had stained her stained excuse.\n \n Besides, the life and"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "keep her word.\n \n KING.\n Have you heard the argument? Is there no offence in\u2019t?\n \n HAMLET.\n No, no, they do but jest, poison in jest; no offence i\u2019 th\u2019 world.\n \n KING.\n What do you call the play?\n \n HAMLET.\n The Mousetrap. Marry, how? Tropically. This play is the image of a murder done in Vienna. Gonzago is the Duke\u2019s name, his wife Baptista: you shall see anon; \u2019tis a knavish piece of work: but what o\u2019 that? Your majesty, and we that have free souls, it touches us not. Let the gall\u2019d jade wince; our withers are unwrung.\n \n Enter Lucianus.\n \n This is one Lucianus, nephew to the King."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "uncle\u2014\n Dost thou attend me?\n \n MIRANDA.\n Sir, most heedfully.\n \n PROSPERO.\n Being once perfected how to grant suits,\n How to deny them, who t\u2019 advance, and who\n To trash for over-topping, new created\n The creatures that were mine, I say, or chang\u2019d \u2019em,\n Or else new form\u2019d \u2019em: having both the key\n Of officer and office, set all hearts i\u2019 th\u2019 state\n To what tune pleas\u2019d his ear: that now he was\n The ivy which had hid my princely trunk,\n And suck\u2019d my verdure out on \u2019t. Thou attend\u2019st not.\n \n MIRANDA.\n O, good sir! I do.\n \n PROSPERO.\n I pray thee, mark me."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ath,\n Never to marry with her though she would entreat;\n Fie on her! See how beastly she doth court him!\n \n HORTENSIO.\n Would all the world but he had quite forsworn!\n For me, that I may surely keep mine oath,\n I will be married to a wealthy widow\n Ere three days pass, which hath as long lov\u2019d me\n As I have lov\u2019d this proud disdainful haggard.\n And so farewell, Signior Lucentio.\n Kindness in women, not their beauteous looks,\n Shall win my love; and so I take my leave,\n In resolution as I swore before.\n \n [Exit Hortensio. Lucentio and Bianca advance.]\n \n TRANIO.\n Mistress Bianca, bless you with such grace\n As \u2019longeth"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ave\u2019s sleeve of Troy there in his helm. I would fain see them meet, that that same young Trojan ass that loves the whore there might send that Greekish whoremasterly villain with the sleeve back to the dissembling luxurious drab of a sleeve-less errand. O\u2019 the other side, the policy of those crafty swearing rascals that stale old mouse-eaten dry cheese, Nestor, and that same dog-fox, Ulysses, is not prov\u2019d worth a blackberry. They set me up, in policy, that mongrel cur, Ajax, against that dog of as bad a kind, Achilles; and now is the cur, Ajax prouder than the cur Achilles, and will not arm today; whereupon the Grecians begin to proclaim barbarism, and policy grows into an ill"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ", two, tree hours for him, and he is no come.\n \n SHALLOW.\n He is the wiser man, Master doctor. He is a curer of souls, and you a curer of bodies. If you should fight, you go against the hair of your professions. Is it not true, Master Page?\n \n PAGE.\n Master Shallow, you have yourself been a great fighter, though now a man of peace.\n \n SHALLOW.\n Bodykins, Master Page, though I now be old, and of the peace, if I see a sword out, my finger itches to make one. Though we are justices and doctors and churchmen, Master Page, we have some salt of our youth in us. We are the sons of women, Master Page.\n \n PAGE.\n \u2019Tis true, Master Shallow.\n \n SHALLOW.\n It will"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Publius and others.\n \n PUBLIUS.\n What is your will?\n \n TITUS.\n Know you these two?\n \n PUBLIUS.\n The empress\u2019 sons, I take them, Chiron, Demetrius.\n \n TITUS.\n Fie, Publius, fie, thou art too much deceived.\n The one is Murder, and Rape is the other\u2019s name;\n And therefore bind them, gentle Publius.\n Caius and Valentine, lay hands on them.\n Oft have you heard me wish for such an hour,\n And now I find it. Therefore bind them sure,\n And stop their mouths if they begin to cry.\n \n [Exit Titus.]\n \n CHIRON.\n Villains, forbear! We are the empress\u2019 sons.\n \n PUBLIUS.\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ou dost shame thy mother\n And wound her honour with this diffidence.\n \n BASTARD.\n I, madam? No, I have no reason for it;\n That is my brother\u2019s plea, and none of mine;\n The which if he can prove, he pops me out\n At least from fair five hundred pound a year.\n Heaven guard my mother\u2019s honour and my land!\n \n KING JOHN.\n A good blunt fellow. Why, being younger born,\n Doth he lay claim to thine inheritance?\n \n BASTARD.\n I know not why, except to get the land.\n But once he slander\u2019d me with bastardy.\n But whe\u2019er I be as true begot or no,\n That still I lay upon my mother\u2019s head;\n But that I am as well begot, my liege\u2014\n Fair fall"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "are both deciphered, that\u2019s the news,\n For villains marked with rape. [Aloud.] May it please you,\n My grandsire, well advised, hath sent by me\n The goodliest weapons of his armoury\n To gratify your honourable youth,\n The hope of Rome; for so he bid me say;\n And so I do, and with his gifts present\n Your lordships, that, whenever you have need,\n You may be armed and appointed well.\n And so I leave you both, [Aside.] like bloody villains.\n \n [Exeunt Young Lucius and Attendant.]\n \n DEMETRIUS.\n What\u2019s here? A scroll; and written round about?\n Let\u2019s see:\n [Reads.] Integer vitae, scelerisque purus,\n Non eget Mauri iaculis, nec"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "!\n \n Re-enter Rosencrantz and Guildenstern.\n \n Friends both, go join you with some further aid:\n Hamlet in madness hath Polonius slain,\n And from his mother\u2019s closet hath he dragg\u2019d him.\n Go seek him out, speak fair, and bring the body\n Into the chapel. I pray you haste in this.\n \n [Exeunt Rosencrantz and Guildenstern.]\n \n Come, Gertrude, we\u2019ll call up our wisest friends,\n And let them know both what we mean to do\n And what\u2019s untimely done, so haply slander,\n Whose whisper o\u2019er the world\u2019s diameter,\n As level as the cannon to his blank,\n Transports his poison\u2019d shot, may miss our name,\n And hit the woundless air"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "is but foul wind, and foul wind is but foul breath, and foul breath is noisome; therefore I will depart unkissed.\n \n BENEDICK.\n Thou hast frighted the word out of his right sense, so forcible is thy wit. But I must tell thee plainly, Claudio undergoes my challenge, and either I must shortly hear from him, or I will subscribe him a coward. And, I pray thee now, tell me, for which of my bad parts didst thou first fall in love with me?\n \n BEATRICE.\n For them all together; which maintained so politic a state of evil that they will not admit any good part to intermingle with them. But for which of my good parts did you first suffer love for me?\n \n BENEDICK.\n \u2018Suffer love,\u2019 a good epithet! I"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "our chosen truth with such a show\n As fool and fight is, beside forfeiting\n Our own brains and the opinion that we bring\n To make that only true we now intend,\n Will leave us never an understanding friend.\n Therefore, for goodness\u2019 sake, and as you are known\n The first and happiest hearers of the town,\n Be sad, as we would make ye. Think ye see\n The very persons of our noble story\n As they were living; think you see them great,\n And followed with the general throng and sweat\n Of thousand friends; then, in a moment, see\n How soon this mightiness meets misery;\n And if you can be merry then, I\u2019ll say\n A man may weep upon his wedding day.\n \n [Exit.]\n \n ACT I\n SCENE I. London. An ante-chamber in the palace.\n Enter the Duke"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "I warrant you that man is not alive\n Might so have tempted him as you have done\n Without the taste of danger and reproof:\n But do not use it oft, let me entreat you.\n \n WORCESTER.\n In faith, my lord, you are too wilful-blame,\n And since your coming hither have done enough\n To put him quite besides his patience.\n You must needs learn, lord, to amend this fault.\n Though sometimes it show greatness, courage, blood\u2014\n And that\u2019s the dearest grace it renders you\u2014\n Yet oftentimes it doth present harsh rage,\n Defect of manners, want of government,\n Pride, haughtiness, opinion, and disdain,\n The least of which haunting a nobleman\n Loseth men\u2019s hearts and leaves behind a stain\n Upon the beauty"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "me;\n I had it from my father.\n \n ANNE.\n Was he mad, sir?\n \n SANDYS.\n O, very mad, exceeding mad in love too;\n But he would bite none. Just as I do now,\n He would kiss you twenty with a breath.\n \n [Kisses her.]\n \n CHAMBERLAIN.\n Well said, my lord.\n So, now you\u2019re fairly seated. gentlemen,\n The penance lies on you if these fair ladies\n Pass away frowning.\n \n SANDYS.\n For my little cure,\n Let me alone.\n \n Hautboys. Enter Cardinal Wolsey and takes his state.\n \n WOLSEY.\n You\u2019re welcome, my fair guests. That noble lady\n Or gentleman that is not freely merry\n Is not my friend. This, to confirm my welcome"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "audience of kings and princes; for by such was it acted.\n \n THIRD GENTLEMAN.\n One of the prettiest touches of all, and that which angled for mine eyes (caught the water, though not the fish) was, when at the relation of the queen\u2019s death (with the manner how she came to it bravely confessed and lamented by the king) how attentiveness wounded his daughter; till, from one sign of dolour to another, she did, with an \u201cAlas,\u201d I would fain say, bleed tears, for I am sure my heart wept blood. Who was most marble there changed colour; some swooned, all sorrowed: if all the world could have seen it, the woe had been universal.\n \n FIRST GENTLEMAN.\n Are they returned to the court?\n \n THIRD GENTLEMAN."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "at have stood upon thy brow\n Like bubbles in a late-disturbed stream,\n And in thy face strange motions have appear\u2019d,\n Such as we see when men restrain their breath\n On some great sudden hest. O, what portents are these?\n Some heavy business hath my lord in hand,\n And I must know it, else he loves me not.\n \n HOTSPUR.\n What, ho!\n \n Enter a Servant.\n \n Is Gilliams with the packet gone?\n \n SERVANT.\n He is, my lord, an hour ago.\n \n HOTSPUR.\n Hath Butler brought those horses from the sheriff?\n \n SERVANT.\n One horse, my lord, he brought even now.\n \n HOTSPUR.\n What horse? A roan, a crop-ear, is it not?\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "feignedly beseech your lordship to make some reservation of your wrongs. He is my good lord; whom I serve above is my master.\n \n LAFEW.\n Who? God?\n \n PAROLLES.\n Ay, sir.\n \n LAFEW.\n The devil it is that\u2019s thy master. Why dost thou garter up thy arms o\u2019 this fashion? Dost make hose of thy sleeves? Do other servants so? Thou wert best set thy lower part where thy nose stands. By mine honour, if I were but two hours younger, I\u2019d beat thee. Methink\u2019st thou art a general offence, and every man should beat thee. I think thou wast created for men to breathe themselves upon thee.\n \n PAROLLES.\n This is hard and undeserved measure, my lord.\n \n LAF"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ", I think, and it be the right husband and the right wife; otherwise \u2019tis light, and not heavy: ask my Lady Beatrice else; here she comes.\n \n Enter Beatrice.\n \n HERO.\n Good morrow, coz.\n \n BEATRICE.\n Good morrow, sweet Hero.\n \n HERO.\n Why, how now? do you speak in the sick tune?\n \n BEATRICE.\n I am out of all other tune, methinks.\n \n MARGARET.\n Clap\u2019s into \u2018Light o\u2019 love\u2019; that goes without a burden: do you sing it, and I\u2019ll dance it.\n \n BEATRICE.\n Ye, light o\u2019 love with your heels! then, if your husband have stables enough, you\u2019ll see he shall lack no barnes.\n "
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "MIAN.\n My arm is sore. Best play with Mardian.\n \n CLEOPATRA.\n As well a woman with an eunuch played\n As with a woman. Come, you\u2019ll play with me, sir?\n \n MARDIAN.\n As well as I can, madam.\n \n CLEOPATRA.\n And when good will is showed, though\u2019t come too short,\n The actor may plead pardon. I\u2019ll none now.\n Give me mine angle; we\u2019ll to the river. There,\n My music playing far off, I will betray\n Tawny-finned fishes. My bended hook shall pierce\n Their slimy jaws, and as I draw them up\n I\u2019ll think them every one an Antony,\n And say \u201cAh, ha! You\u2019re caught.\u201d\n \n CHARMIAN.\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n     Imperious supreme of all mortal things.     996\n \n \n \u201cNo, no,\u201d quoth she, \u201csweet death, I did but jest;\n Yet pardon me, I felt a kind of fear\n Whenas I met the boar, that bloody beast,\n Which knows no pity, but is still severe;     1000\n     Then, gentle shadow,\u2014truth I must confess\u2014\n     I rail\u2019d on thee, fearing my love\u2019s decease.\n \n \n \u201c\u2019Tis not my fault, the boar provok\u2019d my tongue;\n Be wreak\u2019d on him, invisible commander;     1004\n \u2019Tis he, foul creature, that hath done thee wrong;\n I did but act, he\u2019s author of my slander.\n     Grief hath two tongues, and never"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "to heaven in my young days. Why, I am going with my pigeons to the tribunal plebs, to take up a matter of brawl betwixt my uncle and one of the emperal\u2019s men.\n \n MARCUS.\n Why, sir, that is as fit as can be to serve for your oration; and let him deliver the pigeons to the emperor from you.\n \n TITUS.\n Tell me, can you deliver an oration to the emperor with a grace?\n \n CLOWN.\n Nay, truly, sir, I could never say grace in all my life.\n \n TITUS.\n Sirrah, come hither. Make no more ado,\n But give your pigeons to the emperor.\n By me thou shalt have justice at his hands.\n Hold, hold; meanwhile here\u2019s money for thy charges."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "lays esteem,\n And gives thy pen both skill and argument.\n Rise resty Muse, my love\u2019s sweet face survey,\n If time have any wrinkle graven there,\n If any, be a satire to decay,\n And make time\u2019s spoils despised everywhere.\n     Give my love fame faster than Time wastes life,\n     So thou prevent\u2019st his scythe, and crooked knife.\n \n \n                     101\n \n O truant Muse what shall be thy amends,\n For thy neglect of truth in beauty dyed?\n Both truth and beauty on my love depends:\n So dost thou too, and therein dignified:\n Make answer Muse, wilt thou not haply say,\n \u2019Truth needs no colour with his colour fixed,\n Beauty no pencil, beauty\u2019s truth to lay:\n But best is best"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ". Let her be as she is: if she be fair, \u2019tis the better for her; and she be not, she has the mends in her own hands.\n \n TROILUS.\n Good Pandarus! How now, Pandarus!\n \n PANDARUS.\n I have had my labour for my travail, ill thought on of her and ill thought on of you; gone between and between, but small thanks for my labour.\n \n TROILUS.\n What! art thou angry, Pandarus? What! with me?\n \n PANDARUS.\n Because she\u2019s kin to me, therefore she\u2019s not so fair as Helen. And she were not kin to me, she would be as fair on Friday as Helen is on Sunday. But what care I? I care not and she were a blackamoor; \u2019tis all one to me.\n \n TROILUS"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "this coast.\n \n NORTHUMBERLAND.\n The news is very fair and good, my lord:\n Richard not far from hence hath hid his head.\n \n YORK.\n It would beseem the Lord Northumberland\n To say \u201cKing Richard\u201d. Alack the heavy day\n When such a sacred king should hide his head!\n \n NORTHUMBERLAND.\n Your Grace mistakes; only to be brief\n Left I his title out.\n \n YORK.\n The time hath been,\n Would you have been so brief with him, he would\n Have been so brief with you to shorten you,\n For taking so the head, your whole head\u2019s length.\n \n BOLINGBROKE.\n Mistake not, uncle, further than you should.\n \n YORK.\n Take not, good cousin, further than you should,\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "that poor monarch taught thee to insult?\n It needs not, nor it boots thee not, proud queen;\n Unless the adage must be verified,\n That beggars mounted run their horse to death.\n \u2019Tis beauty that doth oft make women proud;\n But God he knows thy share thereof is small.\n \u2019Tis virtue that doth make them most admired;\n The contrary doth make thee wondered at.\n \u2019Tis government that makes them seem divine;\n The want thereof makes thee abominable.\n Thou art as opposite to every good\n As the Antipodes are unto us,\n Or as the south to the Septentrion.\n O tiger\u2019s heart wrapped in a woman\u2019s hide!\n How couldst thou drain the life-blood of the child,\n To bid the father wipe his eyes withal,\n And yet be seen to bear a woman\u2019s"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "andarus!\n \n PANDARUS.\n What says my sweet queen, my very very sweet queen?\n \n PARIS.\n What exploit\u2019s in hand? Where sups he tonight?\n \n HELEN.\n Nay, but, my lord\u2014\n \n PANDARUS.\n What says my sweet queen?\u2014My cousin will fall out with you.\n \n HELEN.\n You must not know where he sups.\n \n PARIS.\n I\u2019ll lay my life, with my disposer Cressida.\n \n PANDARUS.\n No, no, no such matter; you are wide. Come, your disposer is sick.\n \n PARIS.\n Well, I\u2019ll make\u2019s excuse.\n \n PANDARUS.\n Ay, good my lord. Why should you say Cressida?\n No"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "a-coming will speak their mind in some other sort.\n \n PRINCESS.\n Stand aside, good Pompey.\n \n Enter Holofernes, the Pedant, as Judas, and Moth, the Boy, as Hercules.\n \n HOLOFERNES.\n Great Hercules is presented by this imp,\n Whose club killed Cerberus, that three-headed canus,\n And when he was a babe, a child, a shrimp,\n Thus did he strangle serpents in his manus.\n Quoniam he seemeth in minority,\n Ergo I come with this apology.\n Keep some state in thy exit, and vanish.\n \n [Moth retires.]\n \n Judas I am.\u2014\n \n DUMAINE.\n A Judas!\n \n HOLOFERNES.\n Not Isc"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ges, how it takes up the shore! But that\u2019s not to the point. O, the most piteous cry of the poor souls! sometimes to see \u2019em, and not to see \u2019em. Now the ship boring the moon with her mainmast, and anon swallowed with yest and froth, as you\u2019d thrust a cork into a hogshead. And then for the land service, to see how the bear tore out his shoulder-bone, how he cried to me for help, and said his name was Antigonus, a nobleman. But to make an end of the ship, to see how the sea flap-dragon\u2019d it: but first, how the poor souls roared, and the sea mocked them, and how the poor gentleman roared, and the bear mocked him, both roaring louder than the sea or weather.\n \n SHE"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "murders have been perform\u2019d\n Too terrible for the ear: the time has been,\n That, when the brains were out, the man would die,\n And there an end; but now they rise again,\n With twenty mortal murders on their crowns,\n And push us from our stools. This is more strange\n Than such a murder is.\n \n LADY MACBETH.\n My worthy lord,\n Your noble friends do lack you.\n \n MACBETH.\n I do forget.\u2014\n Do not muse at me, my most worthy friends.\n I have a strange infirmity, which is nothing\n To those that know me. Come, love and health to all;\n Then I\u2019ll sit down.\u2014Give me some wine, fill full.\u2014\n I drink to the general joy o\u2019 th\u2019 whole table,\n And to our dear friend Banquo, whom we miss"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "KENT.\n I can keep honest counsel, ride, run, mar a curious tale in telling it and deliver a plain message bluntly. That which ordinary men are fit for, I am qualified in, and the best of me is diligence.\n \n LEAR.\n How old art thou?\n \n KENT.\n Not so young, sir, to love a woman for singing; nor so old to dote on her for anything: I have years on my back forty-eight.\n \n LEAR.\n Follow me; thou shalt serve me. If I like thee no worse after dinner, I will not part from thee yet. Dinner, ho, dinner! Where\u2019s my knave? my fool? Go you and call my fool hither.\n \n [Exit an Attendant.]\n \n Enter Oswald.\n \n You, you, sirrah, where\u2019s my daughter?"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ". You have trained me like a peasant, obscuring and hiding from me all gentleman-like qualities. The spirit of my father grows strong in me, and I will no longer endure it. Therefore allow me such exercises as may become a gentleman, or give me the poor allottery my father left me by testament; with that I will go buy my fortunes.\n \n OLIVER.\n And what wilt thou do? Beg when that is spent? Well, sir, get you in. I will not long be troubled with you. You shall have some part of your will. I pray you leave me.\n \n ORLANDO.\n I no further offend you than becomes me for my good.\n \n OLIVER.\n Get you with him, you old dog.\n \n ADAM.\n Is \u201cold dog\u201d my reward? Most true, I have lost my teeth in your service"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "am, we\u2019ll play at bowls.\n \n QUEEN.\n \u2019Twill make me think the world is full of rubs\n And that my fortune runs against the bias.\n \n LADY.\n Madam, we\u2019ll dance.\n \n QUEEN.\n My legs can keep no measure in delight\n When my poor heart no measure keeps in grief.\n Therefore no dancing, girl; some other sport.\n \n LADY.\n Madam, we\u2019ll tell tales.\n \n QUEEN.\n Of sorrow or of joy?\n \n LADY.\n Of either, madam.\n \n QUEEN.\n Of neither, girl.\n For if of joy, being altogether wanting,\n It doth remember me the more of sorrow;\n Or if of grief, being altogether had,\n It adds more sorrow to my want of joy.\n For"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "him to hold him up,\n Are plucked up, root and all, by Bolingbroke\u2014\n I mean the Earl of Wiltshire, Bushy, Green.\n \n SERVANT.\n What, are they dead?\n \n GARDENER.\n They are. And Bolingbroke\n Hath seized the wasteful King. O, what pity is it\n That he had not so trimmed and dressed his land\n As we this garden! We at time of year\n Do wound the bark, the skin of our fruit trees,\n Lest, being over-proud in sap and blood,\n With too much riches it confound itself.\n Had he done so to great and growing men,\n They might have lived to bear and he to taste\n Their fruits of duty. Superfluous branches\n We lop away, that bearing boughs may live.\n Had he done so,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n \n SECOND SOLDIER.\n So I will, sir.\n \n FIRST LORD.\n Till then I\u2019ll keep him dark, and safely lock\u2019d.\n \n [Exeunt.]\n \n SCENE II. Florence. A room in the Widow\u2019s house.\n Enter Bertram and Diana.\n \n BERTRAM.\n They told me that your name was Fontybell.\n \n DIANA.\n No, my good lord, Diana.\n \n BERTRAM.\n Titled goddess;\n And worth it, with addition! But, fair soul,\n In your fine frame hath love no quality?\n If the quick fire of youth light not your mind,\n You are no maiden but a monument;\n When you are dead, you should be such a one\n As you are now; for you are cold and stern,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ughing?\n \n LONGAVILLE.\n To hear meekly, sir, and to laugh moderately, or to forbear both.\n \n BEROWNE.\n Well, sir, be it as the style shall give us cause to climb in the merriness.\n \n COSTARD.\n The matter is to me, sir, as concerning Jaquenetta. The manner of it is, I was taken with the manner.\n \n BEROWNE.\n In what manner?\n \n COSTARD.\n In manner and form following, sir, all those three. I was seen with her in the manor-house, sitting with her upon the form, and taken following her into the park, which, put together, is \u201cin manner and form following\u201d. Now, sir, for the manner. It is the manner of a man to speak to a woman. For the form\u2014in some form"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "let\u201d or \u201cgood Gobbo,\u201d or \u201cgood Launcelet Gobbo, use your legs, take the start, run away.\u201d My conscience says \u201cNo; take heed, honest Launcelet, take heed, honest Gobbo\u201d or, as aforesaid, \u201chonest Launcelet Gobbo, do not run, scorn running with thy heels.\u201d Well, the most courageous fiend bids me pack. \u201cFia!\u201d says the fiend, \u201caway!\u201d says the fiend. \u201cFor the heavens, rouse up a brave mind,\u201d says the fiend, \u201cand run.\u201d Well, my conscience, hanging about the neck of my heart, says very wisely to me \u201cMy honest friend Launcelet, being an honest man\u2019s son\u201d\u2014or rather an honest woman\u2019s son, for indeed my father did something smack, something grow to, he"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "come, we know your meaning, brother Gloucester.\n You envy my advancement, and my friends\u2019.\n God grant we never may have need of you.\n \n RICHARD.\n Meantime, God grants that we have need of you.\n Our brother is imprisoned by your means,\n Myself disgraced, and the nobility\n Held in contempt, while great promotions\n Are daily given to ennoble those\n That scarce some two days since were worth a noble.\n \n QUEEN ELIZABETH.\n By Him that raised me to this careful height\n From that contented hap which I enjoyed,\n I never did incense his Majesty\n Against the Duke of Clarence, but have been\n An earnest advocate to plead for him.\n My lord, you do me shameful injury\n Falsely to draw me in these v"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n WOLSEY.\n Madam, you wrong the King\u2019s love with these fears;\n Your hopes and friends are infinite.\n \n QUEEN KATHERINE.\n In England\n But little for my profit. Can you think, lords,\n That any Englishman dare give me counsel?\n Or be a known friend, \u2019gainst his Highness\u2019 pleasure,\n Though he be grown so desperate to be honest,\n And live a subject? Nay, forsooth, my friends,\n They that much weigh out my afflictions,\n They that my trust must grow to, live not here.\n They are, as all my other comforts, far hence\n In mine own country, lords.\n \n CAMPEIUS.\n I would your Grace\n Would leave your griefs and take my counsel.\n \n QUEEN KATHERINE."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\u2019t come to this?\n \n OTHELLO.\n Make me to see\u2019t, or at the least so prove it,\n That the probation bear no hinge nor loop\n To hang a doubt on, or woe upon thy life!\n \n IAGO.\n My noble lord,\u2014\n \n OTHELLO.\n If thou dost slander her and torture me,\n Never pray more. Abandon all remorse;\n On horror\u2019s head horrors accumulate;\n Do deeds to make heaven weep, all earth amaz\u2019d;\n For nothing canst thou to damnation add\n Greater than that.\n \n IAGO.\n O grace! O heaven defend me!\n Are you a man? Have you a soul or sense?\n God be wi\u2019 you. Take mine office.\u2014O wretched fool,\n That liv\u2019st to make th"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ATIO.\n Do, if it will not stand.\n \n BARNARDO.\n \u2019Tis here!\n \n HORATIO.\n \u2019Tis here!\n \n [Exit Ghost.]\n \n MARCELLUS.\n \u2019Tis gone!\n We do it wrong, being so majestical,\n To offer it the show of violence,\n For it is as the air, invulnerable,\n And our vain blows malicious mockery.\n \n BARNARDO.\n It was about to speak, when the cock crew.\n \n HORATIO.\n And then it started, like a guilty thing\n Upon a fearful summons. I have heard\n The cock, that is the trumpet to the morn,\n Doth with his lofty and shrill-sounding throat\n Awake the god of day; and at his warning,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "executors and talk of wills.\n And yet not so, for what can we bequeath\n Save our deposed bodies to the ground?\n Our lands, our lives, and all are Bolingbroke\u2019s,\n And nothing can we call our own but death\n And that small model of the barren earth\n Which serves as paste and cover to our bones.\n For God\u2019s sake let us sit upon the ground\n And tell sad stories of the death of kings\u2014\n How some have been deposed, some slain in war,\n Some haunted by the ghosts they have deposed,\n Some poisoned by their wives, some sleeping killed,\n All murdered. For within the hollow crown\n That rounds the mortal temples of a king\n Keeps Death his court; and there the antic sits,\n Scoffing his state and grinning at his pomp,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ly mingle!\u2014Be\u2019st thou sad or merry,\n The violence of either thee becomes,\n So does it no man else.\u2014Met\u2019st thou my posts?\n \n ALEXAS.\n Ay, madam, twenty several messengers.\n Why do you send so thick?\n \n CLEOPATRA.\n Who\u2019s born that day\n When I forget to send to Antony\n Shall die a beggar.\u2014Ink and paper, Charmian.\u2014\n Welcome, my good Alexas.\u2014Did I, Charmian,\n Ever love Caesar so?\n \n CHARMIAN.\n O that brave Caesar!\n \n CLEOPATRA.\n Be choked with such another emphasis!\n Say \u201cthe brave Antony.\u201d\n \n CHARMIAN.\n The valiant Caesar!\n \n CLEOPATRA.\n By Isis, I"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "its.\n \n CLOWN.\n Advise you what you say: the minister is here. [As Sir Topas] Malvolio, Malvolio, thy wits the heavens restore. Endeavour thyself to sleep, and leave thy vain bibble-babble.\n \n MALVOLIO.\n Sir Topas!\n \n CLOWN.\n [As Sir Topas] Maintain no words with him, good fellow. [As himself] Who, I, sir? not I, sir. God buy you, good Sir Topas. [As Sir Topas] Marry, amen. [As himself] I will sir, I will.\n \n MALVOLIO.\n Fool, fool, fool, I say!\n \n CLOWN.\n Alas, sir, be patient. What say you, sir? I am shent for speaking to you."
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "use him\n With all respect and rites of burial.\n Within my tent his bones tonight shall lie,\n Most like a soldier, order\u2019d honourably.\n So call the field to rest, and let\u2019s away,\n To part the glories of this happy day.\n \n [Exeunt.]\n \n THE TRAGEDY OF KING LEAR\n Contents\n ACT I\n Scene I. A Room of State in King Lear\u2019s Palace\n Scene II. A Hall in the Earl of Gloucester\u2019s Castle\n Scene III. A Room in the Duke of Albany\u2019s Palace\n Scene IV. A Hall in Albany\u2019s Palace\n Scene V. Court before the Duke of Albany\u2019s Palace\n \n ACT II\n Scene I. A court within the Castle of the Earl of Gloucester\n Scene II. Before Glouc"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Their understanding\n Begins to swell, and the approaching tide\n Will shortly fill the reasonable shores\n That now lie foul and muddy. Not one of them\n That yet looks on me, or would know me. Ariel,\n Fetch me the hat and rapier in my cell.\n \n [Exit Ariel.]\n \n I will discase me, and myself present\n As I was sometime Milan. Quickly, spirit;\n Thou shalt ere long be free.\n \n Ariel re-enters, singing, and helps to attire Prospero.\n \n ARIEL\n Where the bee sucks, there suck I:\n In a cowslip\u2019s bell I lie;\n There I couch when owls do cry.\n On the bat\u2019s back I do fly\n After summer merrily.\n Merrily, merrily shall I live now"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "shook hands, nor bade farewell to him,\n Till he unseam\u2019d him from the nave to the chops,\n And fix\u2019d his head upon our battlements.\n \n DUNCAN.\n O valiant cousin! worthy gentleman!\n \n SOLDIER.\n As whence the sun \u2019gins his reflection\n Shipwracking storms and direful thunders break,\n So from that spring, whence comfort seem\u2019d to come\n Discomfort swells. Mark, King of Scotland, mark:\n No sooner justice had, with valour arm\u2019d,\n Compell\u2019d these skipping kerns to trust their heels,\n But the Norweyan lord, surveying vantage,\n With furbish\u2019d arms and new supplies of men,\n Began a fresh assault.\n \n DUNCAN.\n Dismay\u2019"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "[They rise and bow.]\n \n Time comes on.\n \n [Exeunt.]\n \n Still music of recorders. Enter Emilia in white, her hair about her shoulders, wearing a wheaten wreath. One in white holding up her train, her hair stuck with flowers. One before her carrying a silver hind, in which is conveyed incense and sweet odours, which being set upon the altar of Diana, her maids standing aloof, she sets fire to it; then they curtsy and kneel.\n \n EMILIA.\n O sacred, shadowy, cold, and constant queen,\n Abandoner of revels, mute contemplative,\n Sweet, solitary, white as chaste, and pure\n As wind-fanned snow, who to thy female knights\n Allow\u2019st no more blood than will make a blush,\n Which is"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "these three days, besides the running banquet of two beadles that is to come.\n \n Enter Lord Chamberlain.\n \n CHAMBERLAIN.\n Mercy o\u2019 me, what a multitude are here!\n They grow still too. From all parts they are coming,\n As if we kept a fair here! Where are these porters,\n These lazy knaves? You\u2019ve made a fine hand, fellows!\n There\u2019s a trim rabble let in. Are all these\n Your faithful friends o\u2019 th\u2019 suburbs? We shall have\n Great store of room, no doubt, left for the ladies,\n When they pass back from the christening.\n \n PORTER.\n An\u2019t please your honour,\n We are but men; and what so many may do,\n Not being torn a-pieces, we have done.\n An army cannot rule \u2019em.\n "
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "therefore have no names.\n \n SPEED.\n Here follow her vices.\n \n LANCE.\n Close at the heels of her virtues.\n \n SPEED.\n Item, She is not to be kissed fasting in respect of her breath.\n \n LANCE.\n Well, that fault may be mended with a breakfast.\n Read on.\n \n SPEED.\n Item, She hath a sweet mouth.\n \n LANCE.\n That makes amends for her sour breath.\n \n SPEED.\n Item, She doth talk in her sleep.\n \n LANCE.\n It\u2019s no matter for that, so she sleep not in her talk.\n \n SPEED.\n Item, She is slow in words.\n \n LANCE.\n O villain, that set this down among her vices! To be slow in words is"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "I know, ere they will have me go to ward,\n They\u2019ll pawn their swords for my enfranchisement.\n \n QUEEN MARGARET.\n Call hither Clifford; bid him come amain,\n To say if that the bastard boys of York\n Shall be the surety for their traitor father.\n \n [Exit Buckingham.]\n \n YORK.\n O blood-bespotted Neapolitan,\n Outcast of Naples, England\u2019s bloody scourge!\n The sons of York, thy betters in their birth,\n Shall be their father\u2019s bail; and bane to those\n That for my surety will refuse the boys!\n \n Enter Edward and Richard.\n \n See where they come; I\u2019ll warrant they\u2019ll make it good.\n \n Enter old Clifford and his Son"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "iness and guilt within my bosom\n Takes off my manhood. I have belied a lady,\n The Princess of this country, and the air on\u2019t\n Revengingly enfeebles me; or could this carl,\n A very drudge of nature\u2019s, have subdu\u2019d me\n In my profession? Knighthoods and honours borne\n As I wear mine are titles but of scorn.\n If that thy gentry, Britain, go before\n This lout as he exceeds our lords, the odds\n Is that we scarce are men, and you are gods.\n \n [Exit.]\n \n The battle continues; the Britons fly; Cymbeline is taken. Then enter to his rescue Belarius, Guiderius and Arviragus.\n \n BELARIUS.\n Stand, stand! We have th\u2019 advantage of the ground"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "handiwork.\n \n FLAVIUS.\n But wherefore art not in thy shop today?\n Why dost thou lead these men about the streets?\n \n COBBLER.\n Truly, sir, to wear out their shoes, to get myself into more work. But indeed, sir, we make holiday to see Caesar, and to rejoice in his triumph.\n \n MARULLUS.\n Wherefore rejoice? What conquest brings he home?\n What tributaries follow him to Rome,\n To grace in captive bonds his chariot wheels?\n You blocks, you stones, you worse than senseless things!\n O you hard hearts, you cruel men of Rome,\n Knew you not Pompey? Many a time and oft\n Have you climb\u2019d up to walls and battlements,\n To towers and windows, yea, to chimney tops,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "AN.\n Hath he seen majesty? Isis else defend,\n And serving you so long!\n \n CLEOPATRA.\n I have one thing more to ask him yet, good Charmian.\n But \u2019tis no matter; thou shalt bring him to me\n Where I will write. All may be well enough.\n \n CHARMIAN.\n I warrant you, madam.\n \n [Exeunt.]\n \n SCENE IV. Athens. A Room in Antony\u2019s House.\n Enter Antony and Octavia.\n \n ANTONY.\n Nay, nay, Octavia, not only that\u2014\n That were excusable, that and thousands more\n Of semblable import\u2014but he hath waged\n New wars \u2019gainst Pompey; made his will, and read it\n To public ear;\n Spoke scantly of me;"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n [Aside.] It shall be to the Duchess of Alen\u00e7on,\n The French king\u2019s sister; he shall marry her.\n Anne Bullen? No; I\u2019ll no Anne Bullens for him.\n There\u2019s more in\u2019t than fair visage. Bullen?\n No, we\u2019ll no Bullens. Speedily I wish\n To hear from Rome. The Marchioness of Pembroke!\n \n NORFOLK.\n He\u2019s discontented.\n \n SUFFOLK.\n Maybe he hears the King\n Does whet his anger to him.\n \n SURREY.\n Sharp enough,\n Lord, for thy justice!\n \n WOLSEY.\n [Aside.] The late queen\u2019s gentlewoman, a knight\u2019s daughter,\n To be her mistress\u2019 mistress? The Queen\u2019s Queen?\n This"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "out o\u2019 door. Good nuncle, in; and ask thy daughters blessing: here\u2019s a night pities neither wise men nor fools.\n \n LEAR.\n Rumble thy bellyful! Spit, fire! spout, rain!\n Nor rain, wind, thunder, fire are my daughters;\n I tax not you, you elements, with unkindness.\n I never gave you kingdom, call\u2019d you children;\n You owe me no subscription: then let fall\n Your horrible pleasure. Here I stand your slave,\n A poor, infirm, weak, and despis\u2019d old man:\n But yet I call you servile ministers,\n That will with two pernicious daughters join\n Your high-engender\u2019d battles \u2019gainst a head\n So old and white as this! O! O! \u2019tis foul!\n \n FOOL.\n He that"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "RUCHIO.\n O, pardon me, Signior Gremio; I would fain be doing.\n \n GREMIO.\n I doubt it not, sir; but you will curse your wooing. Neighbour, this is a gift very grateful, I am sure of it. To express the like kindness, myself, that have been more kindly beholding to you than any, freely give unto you this young scholar,\n \n [Presenting Lucentio.]\n \n that has been long studying at Rheims; as cunning in Greek, Latin, and other languages, as the other in music and mathematics. His name is Cambio; pray accept his service.\n \n BAPTISTA.\n A thousand thanks, Signior Gremio; welcome, good Cambio. [To Tranio.] But, gentle sir, methinks you walk like a stranger. May I"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "hand; farewell.\n I\u2019ll bring you every needful thing. I pray you,\n Take comfort and be strong.\n \n PALAMON.\n Pray hold your promise,\n And do the deed with a bent brow. Most certain\n You love me not; be rough with me, and pour\n This oil out of your language. By this air,\n I could for each word give a cuff, my stomach\n Not reconciled by reason.\n \n ARCITE.\n Plainly spoken.\n Yet pardon me hard language. When I spur\n My horse, I chide him not; content and anger\n In me have but one face.\n \n [Wind horns.]\n \n Hark, sir, they call\n The scattered to the banquet. You must guess\n I have an office there.\n \n PALAMON.\n Sir, your attendance"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "s see\u2019t. For the Lord Timon, sir?\n \n JEWELLER.\n If he will touch the estimate. But for that\u2014\n \n POET.\n When we for recompense have praised the vile,\n It stains the glory in that happy verse\n Which aptly sings the good.\n \n MERCHANT.\n [Looking at the jewel.]\n \u2019Tis a good form.\n \n JEWELLER.\n And rich. Here is a water, look ye.\n \n PAINTER.\n You are rapt, sir, in some work, some dedication\n To the great lord.\n \n POET.\n A thing slipped idly from me.\n Our poesy is as a gum which oozes\n From whence \u2019tis nourished. The fire i\u2019 th\u2019 flint\n Shows not till"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "e, Charmian,\n How this Herculean Roman does become\n The carriage of his chafe.\n \n ANTONY.\n I\u2019ll leave you, lady.\n \n CLEOPATRA.\n Courteous lord, one word.\n Sir, you and I must part, but that\u2019s not it;\n Sir, you and I have loved, but there\u2019s not it;\n That you know well. Something it is I would\u2014\n O, my oblivion is a very Antony,\n And I am all forgotten.\n \n ANTONY.\n But that your royalty\n Holds idleness your subject, I should take you\n For idleness itself.\n \n CLEOPATRA.\n \u2019Tis sweating labour\n To bear such idleness so near the heart\n As Cleopatra this. But, sir, forgive me,\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n \n LEPIDUS.\n You\u2019ve strange serpents there?\n \n ANTONY.\n Ay, Lepidus.\n \n LEPIDUS.\n Your serpent of Egypt is bred now of your mud by the operation of your sun; so is your crocodile.\n \n ANTONY.\n They are so.\n \n POMPEY.\n Sit, and some wine! A health to Lepidus!\n \n LEPIDUS.\n I am not so well as I should be, but I\u2019ll ne\u2019er out.\n \n ENOBARBUS.\n Not till you have slept. I fear me you\u2019ll be in till then.\n \n LEPIDUS.\n Nay, certainly, I have heard the Ptolemies\u2019 pyramises are very goodly things. Without contradiction I have heard that.\n "
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "ellen, you must come presently to the mines.\n The Duke of Gloucester would speak with you.\n \n FLUELLEN.\n To the mines! Tell you the Duke, it is not so good to come to the mines; for, look you, the mines is not according to the disciplines of the war. The concavities of it is not sufficient; for, look you, the athversary, you may discuss unto the Duke, look you, is digt himself four yard under the countermines. By Cheshu, I think \u2019a will plow up all, if there is not better directions.\n \n GOWER.\n The Duke of Gloucester, to whom the order of the siege is given, is altogether directed by an Irishman, a very valiant gentleman, i\u2019 faith.\n \n FLUELLEN.\n It is Captain Macmorris, is it not"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "as thyself, and hath\n More of thee merited than a band of Clotens\n Had ever scar for. [To the guard.] Let his arms alone;\n They were not born for bondage.\n \n CYMBELINE.\n Why, old soldier,\n Wilt thou undo the worth thou art unpaid for\n By tasting of our wrath? How of descent\n As good as we?\n \n ARVIRAGUS.\n In that he spake too far.\n \n CYMBELINE.\n And thou shalt die for\u2019t.\n \n BELARIUS.\n We will die all three;\n But I will prove that two on\u2019s are as good\n As I have given out him. My sons, I must\n For mine own part unfold a dangerous speech,\n Though haply well for you.\n \n ARVIRAGUS.\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "forget me, like the virtues\n Which our divines lose by \u2019em.\n \n MENENIUS.\n You\u2019ll mar all.\n I\u2019ll leave you. Pray you speak to \u2019em, I pray you,\n In wholesome manner.\n \n [Exit Menenius.]\n \n CORIOLANUS.\n Bid them wash their faces\n And keep their teeth clean.\n \n Enter three of the Citizens.\n \n So, here comes a brace.\n You know the cause, sirs, of my standing here.\n \n THIRD CITIZEN.\n We do, sir. Tell us what hath brought you to\u2019t.\n \n CORIOLANUS.\n Mine own desert.\n \n SECOND CITIZEN.\n Your own desert?\n \n CORIOLANUS.\n Ay,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "earance a little. Maybe I will call upon you anon for some advantage to yourself.\n \n MARIANA.\n I am always bound to you.\n \n [Exit.]\n \n DUKE.\n Very well met, and welcome.\n What is the news from this good deputy?\n \n ISABELLA.\n He hath a garden circummured with brick,\n Whose western side is with a vineyard backed;\n And to that vineyard is a planched gate\n That makes his opening with this bigger key.\n This other doth command a little door\n Which from the vineyard to the garden leads;\n There have I made my promise, upon the\n Heavy middle of the night to call on him.\n \n DUKE.\n But shall you on your knowledge find this way?\n \n ISABELLA.\n I have ta\u2019en a due"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "emnon\u2019s tent, I pray you?\n \n AGAMEMNON.\n Even this.\n \n AENEAS.\n May one that is a herald and a prince\n Do a fair message to his kingly eyes?\n \n AGAMEMNON.\n With surety stronger than Achilles\u2019 arm\n Fore all the Greekish heads, which with one voice\n Call Agamemnon head and general.\n \n AENEAS.\n Fair leave and large security. How may\n A stranger to those most imperial looks\n Know them from eyes of other mortals?\n \n AGAMEMNON.\n How?\n \n AENEAS.\n Ay;\n I ask, that I might waken reverence,\n And bid the cheek be ready with a blush\n Modest as morning when she coldly eyes\n The youthful Phoebus.\n Which is"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "comprehensible lies that this same fat rogue will tell us when we meet at supper: how thirty at least he fought with, what wards, what blows, what extremities he endured; and in the reproof of this lives the jest.\n \n PRINCE.\n Well, I\u2019ll go with thee. Provide us all things necessary and meet me tomorrow night in Eastcheap; there I\u2019ll sup. Farewell.\n \n POINS.\n Farewell, my lord.\n \n [Exit.]\n \n PRINCE.\n I know you all, and will awhile uphold\n The unyok\u2019d humour of your idleness.\n Yet herein will I imitate the sun,\n Who doth permit the base contagious clouds\n To smother up his beauty from the world,\n That, when he please again to be himself,\n"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Just as high as my heart.\n \n JAQUES.\n You are full of pretty answers. Have you not been acquainted with goldsmiths\u2019 wives, and conned them out of rings?\n \n ORLANDO.\n Not so; but I answer you right painted cloth, from whence you have studied your questions.\n \n JAQUES.\n You have a nimble wit. I think \u2019twas made of Atalanta\u2019s heels. Will you sit down with me? And we two will rail against our mistress the world and all our misery.\n \n ORLANDO.\n I will chide no breather in the world but myself, against whom I know most faults.\n \n JAQUES.\n The worst fault you have is to be in love.\n \n ORLANDO.\n \u2019Tis a fault I will not change for"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "SERVANT.\n My lord\u2014\n \n SECOND VARRO\u2019S SERVANT.\n My lord\u2014\n \n TIMON.\n Tear me, take me, and the gods fall upon you!\n \n [Exit.]\n \n HORTENSIUS.\n Faith, I perceive our masters may throw their caps at their money. These debts may well be called desperate ones, for a madman owes \u2019em.\n \n [Exeunt.]\n \n Enter Timon and Flavius.\n \n TIMON.\n They have e\u2019en put my breath from me, the slaves.\n Creditors? Devils!\n \n FLAVIUS.\n My dear lord\u2014\n \n TIMON.\n What if it should be so?\n \n FLAVIUS.\n My lord\u2014\n \n TIMON.\n I"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "you it shook.\n \n GLENDOWER.\n The heavens were all on fire, the Earth did tremble.\n \n HOTSPUR.\n O, then th\u2019 Earth shook to see the heavens on fire,\n And not in fear of your nativity.\n Diseased nature oftentimes breaks forth\n In strange eruptions; oft the teeming Earth\n Is with a kind of colic pinch\u2019d and vex\u2019d\n By the imprisoning of unruly wind\n Within her womb, which for enlargement striving,\n Shakes the old beldam Earth, and topples down\n Steeples and moss-grown towers. At your birth\n Our grandam Earth, having this distemp\u2019rature,\n In passion shook.\n \n GLENDOWER.\n Cousin, of many men\n I do not bear these crossings"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\u2019d\n By that which he will utter?\n \n BRUTUS.\n [Aside to Cassius.] By your pardon:\n I will myself into the pulpit first,\n And show the reason of our Caesar\u2019s death.\n What Antony shall speak, I will protest\n He speaks by leave and by permission;\n And that we are contented Caesar shall\n Have all true rights and lawful ceremonies.\n It shall advantage more than do us wrong.\n \n CASSIUS.\n [Aside to Brutus.] I know not what may fall; I like it not.\n \n BRUTUS.\n Mark Antony, here, take you Caesar\u2019s body.\n You shall not in your funeral speech blame us,\n But speak all good you can devise of Caesar,\n And say you do\u2019t by our permission;\n Else shall you not have any"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        ".\n As we were sharing, some six or seven fresh men set upon us.\n \n FALSTAFF.\n And unbound the rest, and then come in the other.\n \n PRINCE.\n What, fought you with them all?\n \n FALSTAFF.\n All? I know not what you call all, but if I fought not with fifty of them I am a bunch of radish. If there were not two or three and fifty upon poor old Jack, then am I no two-legged creature.\n \n PRINCE.\n Pray God you have not murdered some of them.\n \n FALSTAFF.\n Nay, that\u2019s past praying for. I have peppered two of them. Two I am sure I have paid, two rogues in buckram suits. I tell thee what, Hal, if I tell thee a lie,"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "Will stupefy and dull the sense awhile,\n Which first perchance she\u2019ll prove on cats and dogs,\n Then afterward up higher; but there is\n No danger in what show of death it makes,\n More than the locking up the spirits a time,\n To be more fresh, reviving. She is fool\u2019d\n With a most false effect; and I the truer\n So to be false with her.\n \n QUEEN.\n No further service, Doctor,\n Until I send for thee.\n \n CORNELIUS.\n I humbly take my leave.\n \n [Exit.]\n \n QUEEN.\n Weeps she still, say\u2019st thou? Dost thou think in time\n She will not quench, and let instructions enter\n Where folly now possesses? Do thou work.\n When thou shalt bring me word she lov"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "\n \n [Going.]\n \n QUEEN MARGARET.\n Nay, go not from me; I will follow thee.\n \n KING HENRY.\n Be patient, gentle Queen, and I will stay.\n \n QUEEN MARGARET.\n Who can be patient in such extremes?\n Ah, wretched man, would I had died a maid,\n And never seen thee, never borne thee son,\n Seeing thou hast proved so unnatural a father.\n Hath he deserved to lose his birthright thus?\n Hadst thou but loved him half so well as I,\n Or felt that pain which I did for him once,\n Or nourished him as I did with my blood,\n Thou wouldst have left thy dearest heart-blood there,\n Rather than have made that savage duke thine heir\n And disin"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "hear me speak indifferently for all;\n And at my suit, sweet, pardon what is past.\n \n SATURNINUS.\n What, madam, be dishonoured openly,\n And basely put it up without revenge?\n \n TAMORA.\n Not so, my lord; the gods of Rome forfend\n I should be author to dishonour you!\n But on mine honour dare I undertake\n For good Lord Titus\u2019 innocence in all,\n Whose fury not dissembled speaks his griefs.\n Then at my suit look graciously on him;\n Lose not so noble a friend on vain suppose,\n Nor with sour looks afflict his gentle heart.\n [Aside.] My lord, be ruled by me, be won at last;\n Dissemble all your griefs and discontents.\n You are but newly"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    },
+    {
+      "model": "exaone-deep-32B",
+      "text_input": [
+        "And tempt not yet the brushes of the war.\n Unarm thee, go; and doubt thou not, brave boy,\n I\u2019ll stand today for thee and me and Troy.\n \n TROILUS.\n Brother, you have a vice of mercy in you,\n Which better fits a lion than a man.\n \n HECTOR.\n What vice is that? Good Troilus, chide me for it.\n \n TROILUS.\n When many times the captive Grecian falls,\n Even in the fan and wind of your fair sword,\n You bid them rise and live.\n \n HECTOR.\n O, \u2019tis fair play!\n \n TROILUS.\n Fool\u2019s play, by heaven, Hector.\n \n HECTOR.\n How now? how now?\n \n TROILUS.\n For th\u2019 love of"
+      ],
+      "exclude_input_in_output": [
+        true
+      ],
+      "stream": [
+        true
+      ],
+      "sampling_parameters": [
+        "{\"max_tokens\": \"100\", \"min_tokens\": \"100\"}"
+      ]
+    }
+  ]
+}

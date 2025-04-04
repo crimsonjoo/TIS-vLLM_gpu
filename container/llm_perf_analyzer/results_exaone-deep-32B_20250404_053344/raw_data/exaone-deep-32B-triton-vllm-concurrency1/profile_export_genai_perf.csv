@@ -1,0 +1,28 @@
+Metric,avg,min,max,p99,p95,p90,p75,p50,p25
+Time To First Token (ms),84.63,71.05,90.66,90.55,90.13,89.60,88.02,86.93,86.48
+Time To Second Token (ms),26.29,25.85,27.01,26.98,26.87,26.72,26.30,26.21,26.09
+Request Latency (ms),"2,657.46","2,636.74","2,669.39","2,669.27","2,668.78","2,668.16","2,666.32","2,658.68","2,656.15"
+Inter Token Latency (ms),23.36,22.53,24.00,23.99,23.94,23.88,23.70,23.45,23.11
+Output Sequence Length (tokens),111.20,108.00,115.00,114.88,114.40,113.80,112.00,111.00,110.00
+Input Sequence Length (tokens),200.20,200.00,201.00,200.96,200.80,200.60,200.00,200.00,200.00
+
+Metric,Value
+Output Token Throughput (per sec),41.84
+Request Throughput (per sec),0.38
+Request Count (count),5.00
+
+Metric,GPU,avg,min,max,p99,p95,p90,p75,p50,p25
+GPU Power Usage (W),gpu0,272.90,70.31,332.01,332.01,332.01,305.95,296.61,290.00,285.39
+GPU Power Usage (W),gpu1,272.93,76.79,317.37,317.37,317.37,300.12,297.12,295.03,283.19
+Energy Consumption (MJ),gpu0,5.72,5.71,5.72,5.72,5.72,5.72,5.72,5.72,5.72
+Energy Consumption (MJ),gpu1,6.30,6.29,6.30,6.30,6.30,6.30,6.30,6.30,6.30
+GPU Utilization (%),gpu0,83.10,0.00,93.00,93.00,93.00,93.00,93.00,92.00,92.00
+GPU Utilization (%),gpu1,85.10,0.00,96.00,96.00,96.00,96.00,95.00,94.00,94.00
+GPU Memory Used (GB),gpu0,75.81,75.81,75.81,75.81,75.81,75.81,75.81,75.81,75.81
+GPU Memory Used (GB),gpu1,75.83,75.83,75.83,75.83,75.83,75.83,75.83,75.83,75.83
+
+Metric,GPU,Value
+GPU Power Limit (W),gpu0,300.00
+GPU Power Limit (W),gpu1,300.00
+Total GPU Memory (GB),gpu0,85.90
+Total GPU Memory (GB),gpu1,85.90

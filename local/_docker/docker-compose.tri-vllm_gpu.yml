@@ -10,6 +10,7 @@ services:
       args:
         - PYPI_USERNAME=${PYPI_USERNAME:-}
         - PYPI_PASSWORD=${PYPI_PASSWORD:-}
+        - TRITON_VERSION=${TRITON_VERSION:-}
     image: ${IMAGE_NAME}
     restart: unless-stopped
     # 컨테이너 시작 시 실행할 명령
@@ -28,16 +29,6 @@ services:
             - driver: nvidia
               device_ids: ["${NVIDIA_VISIBLE_DEVICES}"]
               capabilities: [gpu]
-    
-    #############################################################
-    # NPU 설정 (사용 시 아래 주석을 해제하고 위의 GPU 설정을 주석 처리)
-    #############################################################
-    # devices:
-    #   - /dev/rbln2  # NPU 디바이스
-    #   - /dev/rbln3  # NPU 디바이스
-    #   - /dev/rbln4  # NPU 디바이스
-    #   - /dev/rbln5  # NPU 디바이스
-    #   - /dev/rsd0   # NPU 관련 디바이스
     
     # 포트 매핑
     ports:
@@ -65,8 +56,3 @@ services:
       - /data/nas_kbn01/models/rbln:${RBLN_CACHE_DIR}
       # 기타 설정 파일 마운트
       - /home/user/.windsurf-server:/root/.windsurf-server
-      
-      #############################################################
-      # NPU 전용 볼륨 마운트 (NPU 사용 시 아래 주석 해제)
-      #############################################################
-      # - /usr/local/bin/rbln-stat:/usr/local/bin/rbln-stat:ro  # NPU 상태 모니터링 도구

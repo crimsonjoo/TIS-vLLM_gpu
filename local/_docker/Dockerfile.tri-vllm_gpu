@@ -20,6 +20,11 @@ RUN apt-get update && \
     nano \
     vim \
     tini \
+    # 시각화 라이브러리 의존성 추가
+    python3-tk \
+    # 추가 시스템 패키지
+    curl \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 # SSH 설정
@@ -41,16 +46,36 @@ RUN mkdir -p /root/.pip && \
     uvicorn \
     pydantic \
     requests \
+    # 시각화 라이브러리 추가
+    pandas \
+    matplotlib \
+    seaborn \
+    # Triton CLI 설치
+    triton-cli \
+    # GenAI Perf Analyzer 설치
+    genai-perf \
     --break-system-packages
+
+# Triton CLI 설치 확인 및 설정
+RUN echo "Triton CLI 버전 확인" && \
+    triton --version || echo "Triton CLI 설치 필요" && \
+    # GenAI Perf Analyzer 설치 확인
+    echo "GenAI Perf Analyzer 버전 확인" && \
+    genai-perf --version || echo "GenAI Perf Analyzer 설치 필요"
 
 # /tmp 디렉토리 생성 및 권한 설정
 RUN mkdir -p /tmp && chmod 1777 /tmp
 
+# Codeium Windsurf 메모리 디렉토리 생성
+# 이 디렉토리는 AI 어시스턴트의 설정과 메모리를 저장하는 용도로 사용됩니다
+RUN mkdir -p /root/.codeium/windsurf/memories
+
+# global_rules.md 파일을 컨테이너 내부로 복사
+# 이 파일은 AI 어시스턴트의 동작 규칙을 정의합니다
+COPY ./local/_docker/global_rules.md /root/.codeium/windsurf/memories/
+
 # 애플리케이션 디렉토리 설정
 WORKDIR /workspace
-
-# 필요한 디렉토리 생성
-RUN mkdir -p /workspace/local
 
 # container 내부의 모든 파일들을 그대로 /workspace안에 복사
 COPY ./container/ /workspace/

@@ -1,0 +1,21 @@
+2025-04-04 05:33 [INFO] genai_perf.parser:112 - Profiling these models: exaone-deep-32B
+2025-04-04 05:33 [INFO] genai_perf.subcommand.common:225 - Running Perf Analyzer : 'perf_analyzer -m exaone-deep-32B --async --input-data artifacts/exaone-deep-32B-triton-vllm-concurrency1/inputs.json -i grpc --streaming -u localhost:8001 --concurrency-range 1 --service-kind triton --request-count 5 --warmup-request-count 2 --profile-export-file artifacts/exaone-deep-32B-triton-vllm-concurrency1/profile_export.json --measurement-interval 10000 --stability-percentage 999'
+2025-04-04 05:34 [INFO] genai_perf.profile_data_parser.profile_data_parser:64 - Loading response data from 'artifacts/exaone-deep-32B-triton-vllm-concurrency1/profile_export.json'
+2025-04-04 05:34 [INFO] genai_perf.profile_data_parser.llm_profile_data_parser:94 - Parsing 5 requests
+Parsing Requests:   0%|          | 0/5 [00:00<?, ?req/s]Parsing Requests: 100%|██████████| 5/5 [00:00<00:00, 126.60req/s]
+                                    NVIDIA GenAI-Perf | LLM Metrics                                    
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓
+┃                         Statistic ┃      avg ┃      min ┃      max ┃      p99 ┃      p90 ┃      p75 ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━┩
+│          Time To First Token (ms) │    84.63 │    71.05 │    90.66 │    90.55 │    89.60 │    88.02 │
+│         Time To Second Token (ms) │    26.29 │    25.85 │    27.01 │    26.98 │    26.72 │    26.30 │
+│              Request Latency (ms) │ 2,657.46 │ 2,636.74 │ 2,669.39 │ 2,669.27 │ 2,668.16 │ 2,666.32 │
+│          Inter Token Latency (ms) │    23.36 │    22.53 │    24.00 │    23.99 │    23.88 │    23.70 │
+│   Output Sequence Length (tokens) │   111.20 │   108.00 │   115.00 │   114.88 │   113.80 │   112.00 │
+│    Input Sequence Length (tokens) │   200.20 │   200.00 │   201.00 │   200.96 │   200.60 │   200.00 │
+│ Output Token Throughput (per sec) │    41.84 │      N/A │      N/A │      N/A │      N/A │      N/A │
+│      Request Throughput (per sec) │     0.38 │      N/A │      N/A │      N/A │      N/A │      N/A │
+│             Request Count (count) │     5.00 │      N/A │      N/A │      N/A │      N/A │      N/A │
+└───────────────────────────────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
+2025-04-04 05:34 [INFO] genai_perf.export_data.json_exporter:62 - Generating artifacts/exaone-deep-32B-triton-vllm-concurrency1/profile_export_genai_perf.json
+2025-04-04 05:34 [INFO] genai_perf.export_data.csv_exporter:73 - Generating artifacts/exaone-deep-32B-triton-vllm-concurrency1/profile_export_genai_perf.csv
