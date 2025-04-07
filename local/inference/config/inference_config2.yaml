@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=none
+# 이 파일은 커스텀 설정 파일이며 특정 스키마를 따르지 않습니다.
+
+# Triton 서버 설정 
+host: 192.168.88.203 # 서버 호스트 주소
+port: 9011  # Triton gRPC 포트
+
+# 모델 설정
+model_name: "exaone-deep-32B" 
+version: 1
+
+# 샘플링 파라미터
+parameters:
+  temperature: 0.7
+  top_p: 0.9
+  max_tokens: 4096
+  stop:
+    - "Human:"
+    - "Assistant:"
+
+# 프롬프트 설정
+prompts:
+  system_prompt: "Please reason step by step. Please answer in korean."
+  user_input: "주식 투자를 잘 할 수 있는 방법에 대해서 직장인에게 추천해줘."
+  template: "user: {user_input}\n{system_prompt}\n\nassistant: "

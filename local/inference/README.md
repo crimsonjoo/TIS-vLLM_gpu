@@ -8,8 +8,16 @@
 /local/inference/
 ├── config/
 │   └── inference_config.yaml  # 추론 설정 파일
-├── config_manager.py          # 설정 관리 모듈
-├── infer.py                   # 추론 실행 스크립트
+├── src/                       # 소스 코드 디렉토리
+│   ├── __init__.py            # 패키지 초기화 파일
+│   ├── config/                # 설정 관련 모듈
+│   │   ├── __init__.py        # 설정 패키지 초기화
+│   │   └── manager.py         # 설정 관리 클래스
+│   └── inference/             # 추론 관련 모듈
+│       ├── __init__.py        # 추론 패키지 초기화
+│       ├── client.py          # Triton 클라이언트 함수
+│       └── runner.py          # 추론 실행 함수
+├── main.py                    # 메인 실행 스크립트
 └── README.md                  # 프로젝트 설명서
 ```
 
@@ -19,6 +27,7 @@
 - **Triton 서버 연결**: gRPC를 통한 Triton Inference Server 연결 및 통신
 - **스트리밍 추론**: 토큰 단위의 스트리밍 추론 지원
 - **비동기 처리**: asyncio를 활용한 비동기 추론 처리
+- **모듈화된 구조**: 기능별로 분리된 모듈 구조로 유지보수성 향상
 
 ## 설정 관리
 
@@ -69,17 +78,21 @@ prompts:
 
 ```bash
 # 기본 설정으로 실행
-python infer.py
+python main.py
+
+# 스트리밍 모드 비활성화
+python main.py --no-stream
 
 # 환경 변수로 설정 변경
-MODEL_NAME="다른모델" TRITON_GRPC_PORT=9012 python infer.py
+MODEL_NAME="다른모델" TRITON_GRPC_PORT=9012 python main.py
 ```
 
 ### 3. 코드에서 사용
 
 ```python
 import asyncio
-from infer import try_request
+from src.inference import try_request
+from src.config import get_config
 
 # 기본 설정으로 추론
 asyncio.run(try_request())
@@ -106,12 +119,14 @@ asyncio.run(try_request(
 ))
 ```
 
-## 설정 관리자 (config_manager.py)
+## 모듈 설명
 
-설정 관리자는 다양한 소스에서 설정을 로드하고 관리하는 모듈입니다:
+### 1. 설정 관리 모듈 (src/config)
+
+설정 관리 모듈은 다양한 소스에서 설정을 로드하고 관리합니다:
 
 ```python
-from config_manager import get_config
+from src.config import get_config
 
 # 특정 설정 가져오기
 port = get_config("port", 9001)
@@ -122,6 +137,23 @@ temperature = get_config("parameters.temperature", 0.7)
 
 # 모든 설정 가져오기
 all_config = get_config()
+```
+
+### 2. 추론 모듈 (src/inference)
+
+추론 모듈은 Triton 서버와의 통신 및 추론 실행을 담당합니다:
+
+```python
+from src.inference import try_request
+
+# 추론 실행
+await try_request(
+    model_name="모델명",
+    version=1,
+    sampling_params={"temperature": 0.7},
+    prompts={"user_input": "질문내용"},
+    stream=True
+)
 ```
 
 ## Docker 환경

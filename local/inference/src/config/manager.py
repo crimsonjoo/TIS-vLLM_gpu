@@ -1,5 +1,5 @@
 """
-# config_manager.py
+# config/manager.py
 # 설정 관리 모듈
 #
 # 이 모듈은 다양한 소스(YAML 파일, 환경 변수, .env 파일 등)에서 설정 값을 로드하고 관리합니다.
@@ -48,13 +48,13 @@ class ConfigManager:
         if yaml_config_path is None:
             # 현재 스크립트 디렉토리의 config/inference_config.yaml을 기본값으로 사용
             script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
-            self.yaml_config_path = str(script_dir / "config" / "inference_config.yaml")
+            self.yaml_config_path = str(script_dir.parent.parent / "config" / "inference_config.yaml")
         
         self.env_file_path = env_file_path
         if env_file_path is None:
             # 상위 디렉토리의 _docker/.env를 기본값으로 사용
             script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
-            self.env_file_path = str(script_dir.parent / "_docker" / ".env")
+            self.env_file_path = str(script_dir.parent.parent.parent / "_docker" / ".env")
         
         # 설정 로드
         self._load_config()
@@ -185,51 +185,39 @@ class ConfigManager:
         # 설정 병합
         self.config = self._merge_configs(yaml_config, env_file, env_vars)
     
-    def get(self, key: str, default: Any = None) -> Any:
+    def get(self, key: str = None, default: Any = None) -> Any:
         """
         설정 값 가져오기
         
         Args:
-            key (str): 설정 키
+            key (str, optional): 설정 키. None이면 모든 설정 반환. 기본값은 None.
             default (Any, optional): 기본값. 키가 없을 경우 반환됨. 기본값은 None.
             
         Returns:
-            Any: 설정 값
+            Any: 설정 값 또는 모든 설정
         """
+        # 키가 None이면 모든 설정 반환
+        if key is None:
+            return self.config
+        
         # 중첩된 키 처리 (예: "parameters.temperature")
         if '.' in key:
             parts = key.split('.')
-            value = self.config
+            current = self.config
             for part in parts:
-                if isinstance(value, dict) and part in value:
-                    value = value[part]
+                if isinstance(current, dict) and part in current:
+                    current = current[part]
                 else:
                     return default
-            return value
+            return current
         
         # 일반 키 처리
         return self.config.get(key, default)
-    
-    def get_all(self) -> Dict[str, Any]:
-        """
-        모든 설정 값 가져오기
-        
-        Returns:
-            dict: 모든 설정 값
-        """
-        return self.config.copy()
-    
-    def reload(self) -> None:
-        """
-        설정 다시 로드
-        """
-        self._load_config()
 
 
 # 싱글톤 인스턴스 생성
-config_manager = ConfigManager()
+_config_manager = ConfigManager()
 
-# 편의 함수
 def get_config(key: str = None, default: Any = None) -> Union[Any, Dict[str, Any]]:
     """
     설정 값 가져오기 (편의 함수)
@@ -241,9 +229,7 @@ def get_config(key: str = None, default: Any = None) -> Union[Any, Dict[str, Any
     Returns:
         Union[Any, Dict[str, Any]]: 설정 값 또는 모든 설정
     """
-    if key is None:
-        return config_manager.get_all()
-    return config_manager.get(key, default)
+    return _config_manager.get(key, default)
 
 
 if __name__ == "__main__":
@@ -251,8 +237,11 @@ if __name__ == "__main__":
     print("전체 설정:")
     print(get_config())
     
-    print("\n포트 설정:")
-    print(get_config("port"))
+    print("\n호스트 설정:")
+    print(get_config("host"))
     
     print("\n온도 설정:")
     print(get_config("parameters.temperature"))
+    
+    print("\n존재하지 않는 설정 (기본값 사용):")
+    print(get_config("존재하지_않는_키", "기본값"))
