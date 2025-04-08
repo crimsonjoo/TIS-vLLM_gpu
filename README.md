@@ -1,4 +1,4 @@
-# TRI-vLLM-GPU: Triton 추론 서버를 이용한 LLM 서빙 시스템
+# TIS-vLLM_GPU: Triton 추론 서버를 이용한 LLM 서빙 시스템
 
 이 프로젝트는 NVIDIA Triton Inference Server와 vLLM을 활용하여 대규모 언어 모델(LLM)을 효율적으로 서빙하고 추론하는 시스템입니다. Docker 컨테이너를 통해 로컬 환경에서 쉽게 배포하고 사용할 수 있으며, 성능 분석 도구를 통해 LLM의 성능을 측정하고 시각화할 수 있습니다.
 

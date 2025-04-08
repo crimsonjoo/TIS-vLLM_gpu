@@ -1,5 +1,5 @@
 # Ignore artifacts directory
-/data1/jsjoo/LLM/TRI-vLLM-gpu/container/llm_perf_analyzer/artifacts
+/data1/jsjoo/LLM/TIS-vLLM_gpu/container/llm_perf_analyzer/artifacts
 container/llm_perf_analyzer/artifacts/
 
 # Python

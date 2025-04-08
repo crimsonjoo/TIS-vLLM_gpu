@@ -1,0 +1,90 @@
+# =========================================================================
+# GenAI 성능 테스트 설정 파일 (llm_perf_config.yaml)
+# =========================================================================
+# 이 파일은 GenAI-Perf 도구를 사용한 LLM 모델 성능 테스트의 설정을 정의합니다.
+# 모든 설정 항목은 테스트 실행 전에 필요에 따라 조정할 수 있습니다.
+
+# 모델 및 서비스 설정
+model:
+  name: "exaone-deep-32B"    # 테스트할 모델 이름 (필수)
+                             # 예: "llama2-7b", "dna-r1-14B", "exaone-deep-32B" 등
+  
+  service_kind: "triton"     # 서비스 종류 (필수)
+                             # 가능한 값: "triton" (NVIDIA Triton), "tgi" (Text Generation Inference),
+                             # "vllm" (vLLM 서버), "openai" (OpenAI 호환 API) 등
+  
+  backend: "vllm"            # 백엔드 엔진 (필수)
+                             # 가능한 값: "vllm", "tensorrtllm", "transformers", "exllama" 등
+                             # 모델 서빙에 사용되는 실제 백엔드 엔진을 지정
+  
+  # 선택적 설정 (필요에 따라 주석 해제하여 사용)
+  # endpoint: "http://localhost:8000/v1"  # 모델 서비스 엔드포인트 URL
+  # api_key: ""                           # API 키 (필요한 경우)
+  # max_batch_size: 8                     # 최대 배치 크기
+  # max_batch_tokens: 4096                # 배치당 최대 토큰 수
+
+# 입력 및 출력 토큰 설정
+tokens:
+  input:
+    mean: 200                # 입력 프롬프트의 평균 토큰 수 (필수)
+                             # 테스트에 사용될 입력 프롬프트의 평균 길이를 토큰 단위로 지정
+    
+    stddev: 0                # 입력 토큰 수의 표준 편차 (필수)
+                             # 0: 모든 프롬프트가 정확히 mean 값의 토큰을 가짐
+                             # >0: 프롬프트 길이가 정규 분포를 따라 다양하게 생성됨
+    
+    # 선택적 설정
+    # min: 50                # 최소 입력 토큰 수
+    # max: 500               # 최대 입력 토큰 수
+    # distribution: "normal" # 토큰 분포 유형: "normal", "uniform", "fixed"
+  
+  output:
+    mean: 500                # 생성할 출력 토큰의 평균 수 (필수)
+                             # 모델이 생성할 출력 토큰의 평균 길이를 지정
+    
+    stddev: 0                # 출력 토큰 수의 표준 편차 (필수)
+                             # 0: 모든 응답이 정확히 mean 값만큼 토큰을 생성
+                             # >0: 응답 길이가 정규 분포를 따라 다양하게 생성됨
+    
+    mean_deterministic: true # 출력 토큰 수를 결정적으로 설정 (선택)
+                             # true: 모델에게 정확히 mean 값만큼 토큰을 생성하도록 요청
+                             # false: 모델이 자연스럽게 생성을 종료할 때까지 생성
+    
+    # 선택적 설정
+    # min: 20                # 최소 출력 토큰 수
+    # max: 200               # 최대 출력 토큰 수
+    # distribution: "normal" # 토큰 분포 유형: "normal", "uniform", "fixed"
+
+# 테스트 설정
+test:
+  request_count: 50           # 성능 측정에 사용할 요청 수 (필수)
+                             # 더 많은 요청 수는 더 정확한 결과를 제공하지만 시간이 더 소요됨
+  
+  warmup_request_count: 3    # 워밍업에 사용할 요청 수 (필수)
+                             # 첫 몇 개의 요청은 성능 측정에서 제외됨 (콜드 스타트 효과 방지)
+  
+  streaming: true            # 토큰 스트리밍 사용 여부 (필수)
+                             # true: 토큰이 생성되는 대로 스트리밍 방식으로 전송
+                             # false: 모든 토큰이 생성된 후 한 번에 전송
+  
+  # 선택적 설정
+  # concurrency: 1           # 동시 요청 수 (병렬 처리 수준)
+  # max_latency_ms: 60000    # 최대 허용 지연 시간 (밀리초)
+  # timeout_ms: 120000       # 요청 타임아웃 시간 (밀리초)
+  # seed: 42                 # 난수 생성기 시드 (재현 가능한 테스트를 위해)
+  # prompt_template: "다음 질문에 답하세요: {prompt}"  # 프롬프트 템플릿
+
+# 결과 저장 설정
+output:
+  artifacts_dir: "/workspace/llm_perf_analyzer/artifacts"  # 아티팩트 저장 기본 디렉토리
+  # result_format: "csv"     # 결과 저장 형식 (csv, json, yaml)
+  # save_raw_responses: true # 원시 응답 데이터 저장 여부
+  # save_gpu_metrics: true   # GPU 메트릭 저장 여부
+
+# 고급 설정
+# advanced:
+#   gpu_monitoring: true     # GPU 모니터링 활성화 여부
+#   monitoring_interval: 1.0 # GPU 모니터링 간격 (초)
+#   log_level: "info"        # 로깅 레벨 (debug, info, warning, error)
+#   retry_count: 3           # 실패한 요청에 대한 재시도 횟수
+#   retry_interval: 1.0      # 재시도 간 대기 시간 (초)
