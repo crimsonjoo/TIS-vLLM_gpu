@@ -9,13 +9,20 @@
 ├── container/                  # 컨테이너 내부에 복사될 파일들
 │   ├── logs/                   # 로그 저장 디렉토리
 │   └── llm_perf_analyzer/      # LLM 성능 분석 도구
-│       ├── run_perf_test.sh    # 성능 테스트 실행 스크립트
-│       ├── run_visualization.py # 결과 시각화 실행 스크립트
+│       ├── config/             # 설정 파일 디렉토리
+│       │   └── llm_perf_config.yaml  # 성능 테스트 설정 파일
+│       ├── src/                # 소스 코드 디렉토리
+│       │   ├── __init__.py     # 패키지 초기화 파일
+│       │   ├── cli.py          # 명령줄 인터페이스
+│       │   └── visualization.py # 시각화 모듈
 │       ├── utils/              # 유틸리티 모듈
 │       │   ├── __init__.py     # 패키지 초기화 파일
 │       │   ├── charts.py       # 차트 생성 함수
 │       │   ├── compare.py      # 결과 비교 함수
-│       │   └── data.py         # 데이터 처리 함수
+│       │   ├── data.py         # 데이터 처리 함수
+│       │   └── enhanced_charts.py # 향상된 차트 기능
+│       ├── data/               # 테스트 데이터 디렉토리
+│       ├── run_perf_test.sh    # 성능 테스트 실행 스크립트
 │       ├── artifacts/          # 테스트 결과 저장 디렉토리 (gitignore에 포함)
 │       └── README.md           # 성능 분석기 설명서
 │
@@ -32,11 +39,17 @@
 │   └── inference/              # 추론 관련 코드
 │       ├── config/             # 설정 파일 디렉토리
 │       │   └── inference_config.yaml  # 추론 설정 파일
+│       ├── src/                # 소스 코드 디렉토리
 │       ├── config_manager.py   # 설정 관리 모듈
 │       ├── infer.py            # 추론 실행 스크립트
 │       └── README.md           # 추론 시스템 설명서
 │
 ├── vllm_backend/              # Triton vLLM 백엔드 코드
+│   ├── src/                   # 소스 코드 디렉토리
+│   ├── samples/               # 샘플 코드 및 모델 저장소
+│   ├── docs/                  # 문서 디렉토리
+│   ├── ci/                    # CI/CD 관련 파일
+│   ├── _serve/                # 서빙 관련 설정
 │   └── README.md              # vLLM 백엔드 설명서
 │
 ├── .gitignore                 # Git 버전 관리에서 제외할 파일 목록
