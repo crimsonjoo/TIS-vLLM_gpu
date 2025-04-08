@@ -29,10 +29,10 @@
 ├── local/                      # 로컬 환경 설정 및 코드
 │   ├── _docker/                # Docker 관련 파일
 │   │   ├── .env                # 환경 변수 설정
-│   │   ├── Dockerfile.tri-vllm_gpu   # Dockerfile
-│   │   ├── docker-compose.tri-vllm_gpu.yml  # Docker Compose 설정
+│   │   ├── Dockerfile.tis-vllm_gpu   # Dockerfile
+│   │   ├── docker-compose.tis-vllm_gpu.yml  # Docker Compose 설정
 │   │   ├── entrypoint.sh       # 컨테이너 시작 스크립트
-│   │   └── entrypoint_sub.sh   # 보조 시작 스크립트
+│   │   └── global_rules.md     # AI 어시스턴트 규칙 정의 파일
 │   │
 │   ├── _kubernetes/            # Kubernetes 관련 파일
 │   │
@@ -50,6 +50,8 @@
 │   ├── docs/                  # 문서 디렉토리
 │   ├── ci/                    # CI/CD 관련 파일
 │   ├── _serve/                # 서빙 관련 설정
+│   ├── _serve_dnotitia/       # D.Notitia 모델 서빙 설정
+│   ├── _serve_exaone/         # ExaOne 모델 서빙 설정
 │   └── README.md              # vLLM 백엔드 설명서
 │
 ├── .gitignore                 # Git 버전 관리에서 제외할 파일 목록
@@ -79,15 +81,23 @@
 
 1. 저장소 클론
    ```bash
-   git clone https://github.com/your-username/TRI-vLLM-gpu.git
-   cd TRI-vLLM-gpu
+   git clone https://github.com/your-username/TIS-vLLM-gpu.git
+   cd TIS-vLLM-gpu
    ```
 
 2. 환경 변수 설정
    `local/_docker/.env` 파일을 수정하여 필요한 환경 변수를 설정합니다:
    ```
+   # Triton 버전 설정
+   TRITON_VERSION=25.02
+   TRITON_VARIANT=vllm-python-py3
+   
+   # 컨테이너 이름 및 이미지 설정
+   CONTAINER_NAME=jsjoo_tri-vllm-gpu
+   IMAGE_NAME=crimsonjoo/tri-vllm-python-py3
+   
    # 사용할 GPU 인덱스 설정
-   NVIDIA_VISIBLE_DEVICES=0,1  # 0번, 1번 GPU 사용
+   NVIDIA_VISIBLE_DEVICES=1,2  # 1번, 2번 GPU 사용
    
    # 포트 설정
    TRITON_HTTP_PORT=9010
@@ -96,20 +106,20 @@
    APP_PORT=5010
    SSH_PORT=5678
    
-   # 컨테이너 이름 및 이미지 설정
-   CONTAINER_NAME=tri-vllm-gpu
-   IMAGE_NAME=your-username/tri-vllm-python-py3
+   # 캐시 디렉토리 설정
+   RBLN_CACHE_DIR=/root/.cache/rbln
+   HF_CACHE_DIR=/root/.cache/huggingface
    ```
 
 3. Docker 컨테이너 빌드 및 실행
    ```bash
    cd local/_docker
-   docker compose -f docker-compose.tri-vllm_gpu.yml up -d
+   docker compose -f docker-compose.tis-vllm_gpu.yml up -d
    ```
 
 4. 컨테이너 접속
    ```bash
-   docker exec -it tri-vllm-gpu bash
+   docker exec -it jsjoo_tri-vllm-gpu bash
    ```
 
 ## 프로젝트 컴포넌트
@@ -199,6 +209,3 @@ Docker 이미지 빌드 시 컨텍스트에서 제외할 파일 목록입니다.
 ## 참고 자료
 
 - [Triton Inference Server 문서](https://github.com/triton-inference-server/server)
-- [vLLM 프로젝트](https://github.com/vllm-project/vllm)
-- [vLLM 지원 모델 목록](https://vllm.readthedocs.io/en/latest/models/supported_models.html)
-- [GenAI-Perf 도구](https://github.com/triton-inference-server/genai-perf)

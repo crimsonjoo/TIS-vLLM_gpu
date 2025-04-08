@@ -1,0 +1,59 @@
+# $docker compose -f docker-compose.tis-vllm_gpu.yml up -d
+version: '3.8'
+
+services:
+  tis-vllm:
+    container_name: ${CONTAINER_NAME}
+    build:
+      context: ../../
+      dockerfile: local/_docker/Dockerfile.tis-vllm_gpu
+      args:
+        - PYPI_USERNAME=${PYPI_USERNAME:-}
+        - PYPI_PASSWORD=${PYPI_PASSWORD:-}
+        - TRITON_VERSION=${TRITON_VERSION:-25.02}
+        - TRITON_VARIANT=${TRITON_VARIANT:-vllm-python-py3}
+    image: ${IMAGE_NAME}
+    restart: unless-stopped
+    # 컨테이너 시작 시 실행할 명령
+    command: /bin/bash
+    # 터미널 연결 설정
+    stdin_open: true
+    tty: true
+
+    #############################################################
+    # GPU 설정 (현재 활성화됨)
+    #############################################################
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["${NVIDIA_VISIBLE_DEVICES}"]
+              capabilities: [gpu]
+    
+    # 포트 매핑
+    ports:
+      - "42435:42435"               # Windsurf 서버
+      - "${APP_PORT}:5000"          # 애플리케이션 포트
+      - "${TRITON_HTTP_PORT}:8000"  # Triton HTTP 포트
+      - "${TRITON_GRPC_PORT}:8001"  # Triton gRPC 포트
+      - "${TRITON_METRICS_PORT}:8002" # Triton 메트릭스 포트
+      - "${SSH_PORT}:22"            # SSH 포트
+
+    # 공유 메모리 설정
+    shm_size: '16gb'
+
+    # 볼륨 마운트
+    volumes:
+      #############################################################
+      # 기본 볼륨 마운트 (GPU/NPU 공통)
+      #############################################################
+      # 로컬 디렉토리와 컨테이너 내부 디렉토리 바인드 마운트
+      - ../../container:${WORKSPACE_DIR}                   # 컨테이너 개발 디렉토리
+      - ../../local:/local                                 # 로컬 설정 디렉토리
+      - ../../vllm_backend:/opt/tritonserver/vllm_backend  # vLLM 백엔드
+      # 캐시 디렉토리 마운트
+      - /data2/nas_kbn01/models/huggingface:${HF_CACHE_DIR}
+      - /data/nas_kbn01/models/rbln:${RBLN_CACHE_DIR}
+      # 기타 설정 파일 마운트
+      - /home/user/.windsurf-server:/root/.windsurf-server
