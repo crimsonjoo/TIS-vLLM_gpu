@@ -1,12 +1,25 @@
 # Ubuntu 22.04를 기반 이미지로 사용
-FROM nvcr.io/nvidia/tritonserver:25.02-vllm-python-py3
+# 버전 관리를 위한 ARG 추가
+ARG TRITON_VERSION=25.02
+ARG TRITON_VARIANT=vllm-python-py3
+
+# 버전 변수를 사용하여 베이스 이미지 지정
+FROM nvcr.io/nvidia/tritonserver:${TRITON_VERSION}-${TRITON_VARIANT}
 
 # Build arguments for PyPI credentials
 ARG PYPI_USERNAME
 ARG PYPI_PASSWORD
+# 빌드 후에도 사용할 수 있도록 ARG 값을 ENV로 복사
+ARG TRITON_VERSION
+ARG TRITON_VARIANT
+ENV TRITON_VERSION=${TRITON_VERSION}
+ENV TRITON_VARIANT=${TRITON_VARIANT}
 
 # 환경 변수 설정
 ENV DEBIAN_FRONTEND=noninteractive
+
+# Triton 서버 바이너리 경로를 PATH에 추가
+ENV PATH=$PATH:/opt/tritonserver/bin
 
 # 기본 패키지 설치 및 SSH 설정
 RUN apt-get update && \
@@ -25,7 +38,22 @@ RUN apt-get update && \
     # 추가 시스템 패키지
     curl \
     wget \
+    # Node.js와 npm 설치를 위한 패키지 추가
+    gnupg \
     && rm -rf /var/lib/apt/lists/*
+
+# Node.js와 npm 설치 (최신 LTS 버전)
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get update && \
+    apt-get install -y nodejs && \
+    npm install -g npm@latest && \
+    # MCP 관련 npm 패키지 설치
+    # npm install -g \
+    # @mcp/desktop-commander \
+    # @mcp/github \
+    # @mcp/puppeteer \
+    # @mcp/sequential-thinking \
+    # && rm -rf /var/lib/apt/lists/*
 
 # SSH 설정
 RUN mkdir /var/run/sshd && \
@@ -35,7 +63,7 @@ RUN mkdir /var/run/sshd && \
     sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/' /etc/ssh/sshd_config && \
     ssh-keygen -A
 
-# Python pip 설정 및 패키지 설치
+# Python pip 설정 및 기본 패키지 설치
 ## pip 업그레이드 시도 없이 직접 필요한 패키지 설치
 RUN mkdir -p /root/.pip && \
     python3 -m pip install --no-cache-dir \
@@ -50,16 +78,47 @@ RUN mkdir -p /root/.pip && \
     pandas \
     matplotlib \
     seaborn \
-    # Triton CLI 설치
-    triton-cli \
-    # GenAI Perf Analyzer 설치
-    genai-perf \
     --break-system-packages
 
-# Triton CLI 설치 확인 및 설정
+# 패키지 의존성 설치 (genai-perf와 triton-cli의 의존성)
+RUN python3 -m pip install --no-cache-dir \
+    fastparquet \
+    plotly \
+    pyarrow \
+    pytest-mock \
+    responses \
+    rich \
+    statsmodels \
+    --break-system-packages
+
+# 소스 코드 복제 및 직접 설치 (해시 검증 우회)
+# 버전에 따른 분기 처리
+RUN mkdir -p /tmp/triton-packages && \
+    cd /tmp/triton-packages && \
+    # GenAI Perf 패키지 클론 및 설치 (버전에 따른 분기 처리)
+    echo "Installing GenAI Perf for Triton version: ${TRITON_VERSION}" && \
+    if [ "${TRITON_VERSION}" = "25.02" ]; then \
+        echo "Using r25.02 branch for perf_analyzer" && \
+        git clone -b r25.02 https://github.com/triton-inference-server/perf_analyzer.git; \
+    elif [ "${TRITON_VERSION}" = "24.02" ]; then \
+        echo "Using r24.02 branch for perf_analyzer" && \
+        git clone -b r24.02 https://github.com/triton-inference-server/perf_analyzer.git; \
+    else \
+        echo "Using main branch for perf_analyzer" && \
+        git clone https://github.com/triton-inference-server/perf_analyzer.git; \
+    fi && \
+    cd perf_analyzer/genai-perf && \
+    python3 -m pip install --no-cache-dir --no-deps -e . --break-system-packages && \
+    cd /tmp/triton-packages && \
+    # Triton CLI 패키지 클론 및 설치 (호환 버전 사용)
+    echo "Installing Triton CLI" && \
+    git clone -b 0.1.3 https://github.com/triton-inference-server/triton_cli.git && \
+    cd triton_cli && \
+    python3 -m pip install --no-cache-dir --no-deps -e . --break-system-packages
+
+# 설치 확인 (오류가 발생해도 빌드 계속 진행)
 RUN echo "Triton CLI 버전 확인" && \
     triton --version || echo "Triton CLI 설치 필요" && \
-    # GenAI Perf Analyzer 설치 확인
     echo "GenAI Perf Analyzer 버전 확인" && \
     genai-perf --version || echo "GenAI Perf Analyzer 설치 필요"
 
