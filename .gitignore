@@ -2,6 +2,11 @@
 /data1/jsjoo/LLM/TIS-vLLM_gpu/container/llm_perf_analyzer/artifacts
 container/llm_perf_analyzer/artifacts/
 
+# 암호화 관련 파일 제외
+encrypt_password.py
+/data1/jsjoo/LLM/TIS-vLLM_gpu/encrypt_password.py
+local/_docker/encrypt_password.py
+
 # Python
 __pycache__/
 *.py[cod]
